@@ -1,6 +1,27 @@
 const coursesDiv = document.querySelector('#courseDiv');
 const data = {};
 
+//function liveSearch() {
+//locate the card elements (from "courses")
+//let cards = document.querySelectorAll('.cards')
+//locate search input
+//let search_query = document.getElementbyId("searchbox").value;
+//loop through the cards
+//for (var i = 0; i< cards.length; i++) {
+//if the text is within the card..
+//if(cards[i].innerText.toLowerCase()
+//and the text matches the search query
+//.includes(search_query.toLowerCase())) {
+//remove the 'is-hidden' class.
+//cards[i].classList.remove('is-hidden');
+//} else {
+// cards[i].classList.add('is-hidden').
+
+
+
+
+
+
 var displayAllCourses = function (data) {
   //create elements that make up the course item
   console.log(data);
