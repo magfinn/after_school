@@ -5,7 +5,7 @@ const data = {};
 //search bar (using is-hidden class)
 function liveSearch() {
   //locate the card elements (from "courses")
-  let cards = document.querySelectorAll('.cards')
+  let cards = document.querySelectorAll('.searchable')
   //locate search input
   let search_query = document.getElementbyId("searchbox").value;
   //loop through the cards
@@ -61,13 +61,13 @@ var displayAllCourses = function (data) {
       'style',
       'border-radius: 40px; padding: 1%; margin 1%; align-items: center;'
     );
-    courseDiv.setAttribute('class', 'card');
-    title.setAttribute('class', 'card-header');
-    category.setAttribute('class', 'card-text');
-    age.setAttribute('class', 'card-text');
-    location.setAttribute('class', 'card-text');
-    description.setAttribute('class', 'card-text');
-    url.setAttribute('class', 'card-footer');
+    courseDiv.setAttribute('class', 'card searchable');
+    title.setAttribute('class', 'card-header searchable');
+    category.setAttribute('class', 'card-text searchable');
+    age.setAttribute('class', 'card-text searchable');
+    location.setAttribute('class', 'card-text searchable');
+    description.setAttribute('class', 'card-text searchable');
+    url.setAttribute('class', 'card-footer searchable');
 
     //go to the next course
     count++;
@@ -81,5 +81,6 @@ var getCourses = function () {
       displayAllCourses(data);
     });
 };
-
+   
 window.addEventListener('load', getCourses);
+liveSearchBtn.addEventLister ('submit', liveSearch);
