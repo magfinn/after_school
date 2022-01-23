@@ -19,7 +19,7 @@ cards[i].classList.remove('is-hidden');
   } else {
 cards[i].classList.add('is-hidden');
     
-    //need to create function that 
+    //need to create function that searches by category and location
 
 
 var displayAllCourses = function (data) {
