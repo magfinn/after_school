@@ -17,7 +17,9 @@ function liveSearch() {
 //remove the 'is-hidden' class.
 cards[i].classList.remove('is-hidden');
   } else {
-cards[i].classList.add('is-hidden').
+cards[i].classList.add('is-hidden');
+    
+    //need to create function that 
 
 
 var displayAllCourses = function (data) {
