@@ -1,25 +1,23 @@
 const coursesDiv = document.querySelector('#courseDiv');
 const data = {};
 
-//function liveSearch() {
-//locate the card elements (from "courses")
-//let cards = document.querySelectorAll('.cards')
-//locate search input
-//let search_query = document.getElementbyId("searchbox").value;
-//loop through the cards
-//for (var i = 0; i< cards.length; i++) {
+
+//search bar (using is-hidden class)
+function liveSearch() {
+  //locate the card elements (from "courses")
+  let cards = document.querySelectorAll('.cards')
+  //locate search input
+  let search_query = document.getElementbyId("searchbox").value;
+  //loop through the cards
+  for (var i = 0; i< cards.length; i++) {
 //if the text is within the card..
-//if(cards[i].innerText.toLowerCase()
+  if(cards[i].innerText.toLowerCase()
 //and the text matches the search query
-//.includes(search_query.toLowerCase())) {
+.includes(search_query.toLowerCase())) {
 //remove the 'is-hidden' class.
-//cards[i].classList.remove('is-hidden');
-//} else {
-// cards[i].classList.add('is-hidden').
-
-
-
-
+cards[i].classList.remove('is-hidden');
+  } else {
+cards[i].classList.add('is-hidden').
 
 
 var displayAllCourses = function (data) {
@@ -30,16 +28,10 @@ var displayAllCourses = function (data) {
   //create elements and display data to each course item
   data.forEach((event) => {
     let currentCourse = data[count];
-
-    // //parse category data
-    // let dataArr = JSON.parse(currentCourse.category);
-    // for (let i = 0; i < dataArr.length; i++) {
-    //   const categories = dataArr[i];
-    //   console.log(categories);
-    // }
     //create dynamic elements
     let courseDiv = document.createElement('div');
     let title = document.createElement('h4');
+    //need to remove characters to get rid of the brackets
     let category = document.createElement('p');
     let age = document.createElement('p');
     let location = document.createElement('p');
