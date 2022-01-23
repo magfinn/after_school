@@ -204,6 +204,11 @@ label {
 .about-p {
   margin: 40px 40px 40px 40px;
 }
+
+.is-hidden {
+  display: none;
+};
+
 #emailHelp {
   font-size: 15px;
 }
