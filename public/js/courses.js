@@ -40,6 +40,9 @@ var displayAllCourses = function (data) {
     let description = document.createElement('p');
     let websiteBtn = document.createElement('button');
     let url = document.createElement('p');
+    let likeBtn = document.createElement("button")
+    let deleteBtn = document.createElement('button')
+    
 
     //append elements
     title.append(currentCourse.title);
@@ -56,6 +59,8 @@ var displayAllCourses = function (data) {
     courseDiv.appendChild(location);
     courseDiv.appendChild(description);
     courseDiv.appendChild(websiteBtn);
+    courseDiv.appendChild(likeBtn);
+    courseDiv.appendChild(deleteBtn);
     coursesDiv.append(courseDiv);
 
     //add classes to DOM elements
@@ -70,6 +75,8 @@ var displayAllCourses = function (data) {
     location.setAttribute('class', 'card-text searchable');
     description.setAttribute('class', 'card-text searchable');
     url.setAttribute('class', 'card-footer searchable');
+    likeBtn.setAttribute('class="like-btn searchable');
+    deleteBtn.setAttribute('class="delete-btn searchable');
 
     //go to the next course
     count++;
@@ -86,3 +93,7 @@ var getCourses = function () {
    
 window.addEventListener('load', getCourses);
 liveSearchBtn.addEventLister ('submit', liveSearch);
+ likeBtn.addEventListener('click',function(){
+   $(this).toggleClass('is-active');
+ });
+
