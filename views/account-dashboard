@@ -1,0 +1,24 @@
+<div class = "saved-courses">
+<div class = "title">
+My Saved Classes
+</div>
+
+{{Account.courses}}
+
+{{#each Account.course}}
+//course1
+<div class = "saved-course">
+  <div class = "buttons">
+    <span class="delete-btn"></span>
+    <span class="like-btn"></span>
+    
+    
+      <div class = "card">
+        <h2 class = "card-title course-title> {{Course.title}}
+          <p class = "card-contents">
+          <span>{{Category}}</span>
+          <span>{{Location}}</span>
+         <span> {{Age}}</span
+          <span>Description:</span> {{Course.description}}
+       </div>
+{{/each}}
