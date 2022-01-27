@@ -131,10 +131,10 @@ router.get('/:age/', async (req, res) => {
 });
 
 // GET course by name
-router.get('/:title/', (req, res) => {
+router.get('/:id/', (req, res) => {
   Course.findAll({
     where: {
-      title: req.params.title,
+      id: req.params.id,
     },
     raw: true,
   })
