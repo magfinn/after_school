@@ -1,5 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+
+const sequelize = require('../config/connection.js');
 
 class Age extends Model {}
 
@@ -11,14 +12,13 @@ Age.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    age: {
+    age_name: {
       type: DataTypes.STRING,
-      allowNull: false,
     },
   },
   {
     sequelize,
-    timestamps: false,
+    timestamps: true,
     freezeTableName: true,
     underscored: true,
     modelName: 'age',

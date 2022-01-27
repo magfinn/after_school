@@ -1,28 +1,33 @@
 
-    <!--Add Striped Border-->
-        <br><h2 class="striped-border"></h2><br>
-        <section class = "container">
-            <div class="column col-9">
-                <div class="classes">
-                    {{#each course}}
-                    <div class = "card">
-                        <h3 class= "card-title">Course Title
-                        {{course_title}}
-                        </h3>
-                        <div class = "card-content">
-                            Description: {{description}}
-                            <br>
-                            Locations: {{location_id}}
-                            <br>
-                            Ages: {{age_id}}
-                            <br>
-                            <a href="{{url}}">View Website</a>
-                            </div>
-                    </div>
-                    {{/each}}
-                </div>
-            </div>
-    </section>
+    <div class="col-10 container">
+      {{#each Courses}}
+      <div class="card">
+        <h3 class='card title'>{{title}}</h3>
+        <p class='tags'>{{category}}</p>
+        <p class='tags'>{{location}}</p>
+        <p class='tags'>{{age}}</p>
+        <p class="card-content">
+          {{description}}
+          <a href="{{url}}">View Website</a>
+        </p>
+        <div class = 'card-footer'>
+          <button class="button is-success">
+    <span class="icon is-small">
+      <i class="fas fa-check"></i>
+    </span>
+    <span>Save for later</span>
+  </button>
+        </div>
+
+        <div id="courseDiv" class="card">
+          <h3><a href="/courses/{{url}}">{{url}}</a></h3>
+        </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
+</section>
     <br>
     <!--Add Striped Border-->
     <h2 class="striped-border"></h2>
+    <script src="../public/js/courses.js"></script>

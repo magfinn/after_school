@@ -1,26 +1,42 @@
 [
-    {
-        "name": "Arts"
-    },
-     {
-        "name": "Summer/Winter Camps"
-    },
-    {
-        "name": "Tutoring"
-    },
-    {
-        "name": "Sports"
-    },
-    {
-        "name": "Dance"
-    },
-    {
-        "name": "STEM"
-    },
-    {
-        "name": "Music"
-    },
-    {
-        "name": "Child Care"
-    }
+  {
+    "id": 0,
+    "category_type": "Arts"
+  },
+  {
+    "id": 1,
+    "category_type": "Dance"
+  },
+  {
+    "id": 2,
+    "category_type": "Music"
+  },
+  {
+    "id": 3,
+    "category_type": "Sports"
+  },
+  {
+    "id": 4,
+    "category_type": "STEM"
+  },
+  {
+    "id": 5,
+    "category_type": "Tutoring"
+  },
+  {
+    "id": 6,
+    "category_type": "Summer/Winter Camps"
+  },
+  {
+    "id": 7,
+    "category_type": "Events"
+  },
+  {
+    "id": 8,
+    "category_type": "Child Care"
+  },
+  {
+      "id": 9,
+      "category_type": "After School Program"
+  }
 ]

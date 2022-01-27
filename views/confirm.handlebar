@@ -1,0 +1,17 @@
+<div class="card-form-container">
+
+    <div class="card about-us">
+        <h2 class="about-us card-title">Thank You!</h2>
+        <div class="about-us card-content">
+            Thank you for joining the Club with your course submission! Once confirmed, your submission will be confirmed and added to our list shortly.
+        </div>
+        <div class="about-us card-footer">
+            We're on it!
+            In the next 3-5 business days, we will confirm the information you have submitted. We will contact you if we have any questions. 
+        </div>
+    </div>  
+</div>
+      {{#if message}}
+      <h4 class="alert alert-danger  mt-4">{{message}}</h4>
+      {{/if}}
+    

@@ -10,8 +10,11 @@ Course.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    course_title: {
+    title: {
       type: DataTypes.STRING,
+    },
+    description: {
+      type: DataTypes.STRING(1234),
     },
     url: {
       type: DataTypes.STRING,
@@ -19,20 +22,33 @@ Course.init(
         isUrl: true,
       },
     },
-    description: {
+    contactFirstName: {
       type: DataTypes.STRING,
     },
-    location_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'location',
-        key: 'id',
-      },
+    contactLastName: {
+      type: DataTypes.STRING,
+    },
+    contactEmail: {
+      type: DataTypes.STRING,
     },
     category_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'category',
+        key: 'id',
+      },
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
+      },
+    },
+    location_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'location',
         key: 'id',
       },
     },
@@ -46,7 +62,7 @@ Course.init(
   },
   {
     sequelize,
-    timestamps: false,
+    timestamps: true,
     freezeTableName: true,
     underscored: true,
     modelName: 'course',

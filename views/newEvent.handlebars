@@ -1,71 +1,84 @@
-<html lang="en">
-    <main>
-      <br>
-      <br>
-      <br>
-      <h2>Add your own Course or Event</h2>
-      <br>
-      <br>
-      <br>
-      <div class="card form-container">
-        <form class="form-container" action="/api/courses" method="POST">
-          <div class="form-group">
+<div class="card-form-container">
+        <div class="card">
+          <h2 class="card-title">Submit your course, camp or event!</h2>
+          <h4 class="card-subtitle">Fill out the details below to be included in Club Hub Kids' database.
+          </h4>
+          <div class="card-content">
+        <form class="form-container" id="newEventForm" action="/api/courses" method="POST">
+          <div>
             <div class="row">
               <div class="form-group">
-                <label for="courseTitle" >Course Title:</label>
-                <input type="text" class="form-control" id="course_title" name="courseTitle" />
+                <div>
+                  Your Contact Information:
+                  <div class="col">
+                <label for="contactFirstName" class="form-text">First Name:</label>
+                <input type="name" class="form-control" id="first-name" name="firstname" />
+              </div>
+              <div class="col">
+                <label for="contactLastName" class="form-text">Last Name:</label>
+                <input type="name" class="form-control" id="last-name" name ="lastname" />
               </div>
               <div class="form-group">
+                <label for="contactEmail" class="form-text">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" />
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              </div>
+                <label for="course_title">Name of the Class:</label>
+                <input type="text" class="form-control" id="course-title" name="courseTitle" />
+              {{!-- </div> --}}
+              {{!-- <div class="form-group"> --}}
                 <label for="description">Description of event:</label>
                 <input type="textarea" class="form-control" id="description" name ="description" />
-              </div>
-              <div class="form-group">
+              {{!-- </div> --}}
+              {{!-- <div class="form-group"> --}}
                 <label for="url">Course Website:</label>
                 <input type="url" class="form-control" id="url" name="url"/>
-              <div class="form-group">
-                <label for="location">City:</label>
-                <div class="form-group form-text">
-                Select all that apply:
-                <br>
-                <div class="outlined">
-                <input type="checkbox" class="checkbox-options" value="0">Carmichael</option>
-                    <input type="checkbox" class= value="1">Citrus Heights</option>
-                    <input type="checkbox" class= value="2">Davis</option>
-                    <input type="checkbox" class= value="3">El Dorado Hills</option>
-                    <input type="checkbox" class= value="4">Elk Grove</option>
-                    <input type="checkbox" class= value="5">Fair Oaks</option>
-                    <input type="checkbox" class= value="6">Folsom</option>
-                    <input type="checkbox" class= value="7">Galt</option>
-                    <input type="checkbox" class= value="8">Lincoln</option>
-                    <input type="checkbox" class= value="9">Lodi</option>
-                    <input type="checkbox" class= value="10">Natomas</option>
-                    <input type="checkbox" class= value="11">Rancho Cordova</option>
-                    <input type="checkbox" class= value="12">Rocklin</option>
-                    <input type="checkbox" class= value="13">Roseville</option>
-                    <input type="checkbox" class= value="14">Sacramento</option>
-                    <input type="checkbox" class= value="15">West Sacramento</option>
-                    <input type="checkbox" class= value="16">Woodland</option>
-                    <input type="checkbox" class= value="17">Other</option>
+              
+                <label for="location" name="location">City:</label>
+                
+                <input type="checkbox" class="checkbox-options city" value="0">Antelope</option>
+                    <input type="checkbox" class= "checkbox-options location" value="1">Carmichael</option>
+                    <input type="checkbox" class= "checkbox-options location" value="2">Citrus Heights</option>
+                    <input type="checkbox" class= "checkbox-options location" value="3">El Dorado Hills</option>
+                    <input type="checkbox" class= "checkbox-options location" value="4">Elk Grove</option>
+                    <input type="checkbox" class= "checkbox-options location" value="5">Fair Oaks</option>
+                    <input type="checkbox" class= "checkbox-options location" value="6">Folsom</option>
+                    <input type="checkbox" class= "checkbox-options location" value="7">Galt</option>
+                    <input type="checkbox" class= "checkbox-options location" value="8">Lincoln</option>
+                    <input type="checkbox" class= "checkbox-options location" value="9">Lodi</option>
+                    <input type="checkbox" class= "checkbox-options location" value="10">Natomas</option>
+                    <input type="checkbox" class= "checkbox-options location" value="11">Rancho Cordova</option>
+                    <input type="checkbox" class= "checkbox-options location" value="12">Rocklin</option>
+                    <input type="checkbox" class= "checkbox-options location" value="13">Roseville</option>
+                    <input type="checkbox" class= "checkbox-options location" value="14">Sacramento</option>
+                    <input type="checkbox" class= "checkbox-options location" value="15">West Sacramento</option>
+                    <input type="checkbox" class= "checkbox-options location" value="16">Woodland</option>
+                    <input type="checkbox" class= "checkbox-options location" value="17">Davis</option>
+                    <input type="checkbox" class= "checkbox-options location" value="18">Online</option>
+                    <input type="checkbox" class= "checkbox-options location" value="19">Granite Bay</option>
+                    <input type="checkbox" class= "checkbox-options location" value="20">North Highlands</option>
+                     <input type="checkbox" class= "checkbox-options location" value="21">Auburn</option>
                   </input>
-                  </div>
+
                   </div>
                 </div>
-                <div class="form-group">
-                  <label for="category" >Category</label>
-                  <div class="form-group form-text">
-                  Select all that apply:
-                  <br>
-                  <div class="outlined">
-                <input type="checkbox" class="checkbox-options" value="0">Arts</option>
-                    <input type="checkbox" class="checkbox-options" value="1">Summer/Winter Camps</option>
-                    <input type="checkbox" class="checkbox-options" value="2">Tutoring</option>
-                    <input type="checkbox" class="checkbox-options" value="3">Sports</option>
-                    <input type="checkbox" class="checkbox-options" value="4">Dance</option>
-                    <input type="checkbox" class="checkbox-options" value="5">STEM</option>
-                    <input type="checkbox" class="checkbox-options" value="6">Music</option>
-                    <input type="checkbox" class="checkbox-options" value="7">Child Care</option>
-                    <input type="checkbox" class="checkbox-options" value="8">Other</option>
-                    <input type="checkbox" class="checkbox-options" value="9">Event</option>
+                
+
+
+                  <label for="category" name="category">Category</label>
+                    
+                    <input type="checkbox" class="checkbox-options category" value="0">Arts</option>
+                    <input type="checkbox" class="checkbox-options category" value="1">Dance</option>
+                    <input type="checkbox" class="checkbox-options category" 
+                    value="2">Music</option>
+                    <input type="checkbox" class="checkbox-options category" value="3">Sports</option>
+                    <input type="checkbox" class="checkbox-options category" value="4">STEM</option>
+                    <input type="checkbox" class="checkbox-options category" value="5">Tutoring</option>
+                    <input type="checkbox" class="checkbox-options category" value="6">Summer/ Winter Camps</option>
+                    <input type="checkbox" class="checkbox-options category" value="7">Events</option>
+                    <input type="checkbox" class="checkbox-options category" value="8">Child Care</option>
+                    <input type="checkbox" class="checkbox-options category" value="9">After School Program</option>
                   </input>
                 </div>
                 </div>
@@ -75,30 +88,34 @@
                   <div class="form-group form-text">
                   Select all that apply:
                  <div class="outlined">
-                    <input type="checkbox" class="checkbox-options" value="0">Infant/Toddler</option>
-                    <input type="checkbox" class="checkbox-options" value="1">Preschool</option>
-                    <input type="checkbox" class="checkbox-options" value="2">Elementary School</option>
-                    <input type="checkbox" class="checkbox-options" value="3">Middle School</option>
-                    <input type="checkbox" class="checkbox-options" value="4">High School</option>
+                    <input type="checkbox" class="checkbox-options ages" value="0">Infant/Toddler</option>
+                    <input type="checkbox" class="checkbox-options ages" value="1">Preschool</option>
+                    <input type="checkbox" class="checkbox-options ages" value="2">Elementary School</option>
+                    <input type="checkbox" class="checkbox-options ages" value="3">Middle School</option>
+                    <input type="checkbox" class="checkbox-options ages" value="4">High School</option>
                   </input>
                 </div>
                 </div>
                 </div>
-                <div class="form-check">
-                  <input type="checkbox" id="accept-terms" class="form-check-input">
+              
+                <div class="card-footer">
                   <label for="accept-terms" class="form-check-label">Accept Terms &amp; Conditions</label>
+                  <input type="checkbox" id="accept-terms" class="form-check-input">
                 </div>
                 <div class="form-group">
-                <button type="submit" class="btn btn-primary  btn-block" value="submit">Submit</button>
+                <button id = "new-event-btn" type="submit" class="btn btn-primary  btn-block" value="submit">Submit</button>
                 </div>
         </form>
+        </div>
+        </div>
       </div>
-      {{#if message}}
+      {{!-- {{#if message}}
       <h4 class="alert alert-danger  mt-4">{{message}}</h4>
-      {{/if}}
+      {{/if}} --}}
     </main>
   </div>
 
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
   {{/if}}
+  <script src = "../js/newEvent.js"></script>

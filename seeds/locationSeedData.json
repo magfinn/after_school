@@ -1,53 +1,90 @@
-  [  
-    {
-        "city": "Carmichael"
-    },
-    {
-        "city": "Citrus Heights"
-    },
-    {
-        "city": "Davis"
-    },
-    {
-        "city": "El Dorado Hills"
-    },
-    {
-        "city": "Elk Grove"
-    },
-    {
-        "city": "Fair Oaks"
-    },
-    {
-        "city": "Folsom"
-    },
-    {
-        "city": "Galt"
-    },
-    {
-        "city": "Lincoln"
-    },
-    {
-        "city": "Lodi"
-    },
-    {
-        "city": "Natomas"
-    },
-    {
-        "city": "Rancho Cordova"
-    },
-    {
-        "city": "Rocklin"
-    },
-    {
-        "city": "Roseville"
-    },
-    {
-        "city": "Sacramento"
-    },
-    {
-        "city": "West Sacramento"
-    },
-    {
-        "city": "Woodland"
-    }
-  ]
+  [
+  {
+    "id": 0,
+    "location_city": "Antelope"
+  },
+  {
+    "id": 1,
+    "location_city": "Carmichael"
+  },
+  {
+    "id": 2,
+    "location_city": "Citrus Heights"
+  },
+  {
+    "id": 3,
+    "location_city": "El Dorado Hills"
+  },
+  {
+    "id": 4,
+    "location_city": "Elk Grove"
+  },
+  {
+    "id": 5,
+    "location_city": "Fair Oaks"
+  },
+  {
+    "id": 6,
+    "location_city": "Folsom"
+  },
+  {
+    "id": 7,
+    "location_city": "Galt"
+  },
+  {
+    "id": 8,
+    "location_city": "Lincoln"
+  },
+  {
+    "id": 9,
+    "location_city": "Lodi"
+  },
+  {
+    "id": 10,
+    "location_city": "Natomas"
+  },
+  {
+    "id": 11,
+    "location_city": "Rancho Cordova"
+  },
+  {
+    "id": 12,
+    "location_city": "Rocklin"
+  },
+  {
+    "id": 13,
+    "location_city": "Roseville"
+  },
+  {
+    "id": 14,
+    "location_city": "Sacramento"
+  },
+  {
+    "id": 15,
+    "location_city": "West Sacramento"
+  },
+  {
+    "id": 16,
+    "location_city": "Woodland"
+  },
+  {
+    "id": 17,
+    "location_city": "Davis"
+  },
+  {
+    "id": 18,
+    "location_city": "Online"
+  },
+  {
+    "id": 19,
+    "location_city": "Granite Bay"
+  },
+  {
+    "id": 20,
+    "location_city": "North Highlands"
+  },
+  {
+    "id": 21,
+    "location_city": "Auburn"
+  }
+]

@@ -1,30 +1,54 @@
-const Account = require ('./Account');
-const Category = require ('./Category');
+const sequelize = require('../config/connection');
 const Course = require('./Course');
-const Location = require ('./Location');
-const User = require ('./User');
-const Age = require ('./Age');
+const User = require('./User');
+const Category = require('./Category');
+const Location = require('./Location');
+const SavedCourse = require('./SavedCourse');
+const Age = require('./Age');
 
-// Account.hasMany(Course, {
-//     foreignKey: 'account_id',
-//     constraints: false
-// });
-
-Course.belongsToMany(Location, {
-    through: 'location_id',
-    constraints: false
+// User && Courses
+User.hasMany(Course, {
+  foreignKey: 'course_id',
 });
 
-Course.belongsToMany(Category, {
-    through: 'category_id',
-    constraints: false
+Course.belongsTo(User, {
+  foreignKey: 'course_id',
 });
 
-Course.belongsToMany(Age, {
-    through: 'age_id',
-    constraints: false
+//Course && Location
+Course.belongsTo(Location, {
+  foreignKey: 'location_id',
 });
 
+Location.hasMany(Course, {
+  foreignKey: 'location_id',
+});
 
+//Course && Age
+Course.belongsTo(Age, {
+  foreignKey: 'age_id',
+});
 
-module.exports = { User, Course, Account, Category, Location };
+Age.hasMany(Course, {
+  foreignKey: 'age_id',
+});
+
+//Course && Category
+Course.belongsTo(Category, {
+  foreignKey: 'category_id',
+});
+
+Category.hasMany(Course, {
+  foreignKey: 'category_id',
+});
+
+//Saved Course && Account
+SavedCourse.belongsTo(User, {
+  foreignKey: 'user_id',
+});
+
+User.hasMany(SavedCourse, {
+  foreignKey: 'user_id',
+});
+
+module.exports = { User, Course, Category, Location, SavedCourse, Age };
