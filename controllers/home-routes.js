@@ -4,10 +4,10 @@ const router = require('express').Router();
 const { Course, User } = require('../models');
 const sequelize = require('../config/connection');
 
-//GET render courses page
-router.get('/course', (req, res) => {
-  res.render('courses');
-});
+// //GET render courses page
+// router.get('/course', (req, res) => {
+//   res.render('courses');
+// });
 
 //GET render about us
 router.get('/about', (req, res) => {

@@ -1,6 +1,6 @@
 
     <div class="col-10 container">
-      {{#each Courses}}
+      {{#each courses}}
       <div class="card">
         <h3 class='card title'>{{title}}</h3>
         <p class='tags'>{{category}}</p>
@@ -20,7 +20,7 @@
         </div>
 
         <div id="courseDiv" class="card">
-          <h3><a href="/courses/{{url}}">{{url}}</a></h3>
+          <h3><a href="/courses/{{url}}"></a></h3>
         </div>
     </div>
     {{/each}}
@@ -30,4 +30,4 @@
     <br>
     <!--Add Striped Border-->
     <h2 class="striped-border"></h2>
-    <script src="../public/js/courses.js"></script>
+    {{!-- <script src="../public/js/courses.js"></script> --}}

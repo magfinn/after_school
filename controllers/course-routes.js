@@ -1,8 +1,18 @@
 const router = require('express').Router();
 const sequelize = require('../config/connection');
-const { Course, Location } = require('../models');
+const { Course, Location, Category, Age } = require('../models');
 const withAuth = require('../utils/auth');
 
+router.get('/', (req, res) => {
+  Course.findAll()
+    .then((response) => {
+      const courses = response.map((course) => course.get({ plain: true }));
+      res.render('courses', { courses });
+    })
+    .catch((error) => {
+      res.status(500).json(error);
+    });
+});
 //GET/render new event form at /submit
 router.get('/new', (req, res) => res.render('newEvent'));
 
@@ -152,13 +162,5 @@ router.get('/:id/', (req, res) => {
       res.status(500).json(err);
     });
 });
-
-router.get('/'),
-  (req, res) => {
-    Course.findAll().then((response) => {
-      let course = response.get({ plain: true });
-      res.render('courses', { course });
-    });
-  };
 
 module.exports = router;
