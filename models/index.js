@@ -3,28 +3,39 @@ const Course = require('./Course');
 const User = require('./User');
 const Category = require('./Category');
 const Location = require('./Location');
-const SavedCourse = require('./SavedCourse');
+// const SavedCourse = require('./SavedCourse');
 const Age = require('./Age');
 
-// User && Courses
+// Course && USER
 User.hasMany(Course, {
-  foreignKey: 'course_id',
+  foreignKey: 'user_id',
 });
 
 Course.belongsTo(User, {
-  foreignKey: 'course_id',
+  foreignKey: 'user_id',
 });
 
-//Course && Location
+// Course && Category
+Course.belongsToMany(Category, {
+  through: "course_category",
+  as: "courses",
+  foreignKey: 'categoryId',
+});
+
+Category.hasMany(Course, {
+  foreignKey: 'categoryId',
+});
+
+// Course && Location
 Course.belongsTo(Location, {
-  foreignKey: 'location_id',
+  foreignKey: 'locationId',
 });
 
 Location.hasMany(Course, {
-  foreignKey: 'location_id',
+  foreignKey: 'locationId',
 });
 
-//Course && Age
+// Course && Age
 Course.belongsTo(Age, {
   foreignKey: 'age_id',
 });
@@ -33,22 +44,4 @@ Age.hasMany(Course, {
   foreignKey: 'age_id',
 });
 
-//Course && Category
-Course.belongsTo(Category, {
-  foreignKey: 'category_id',
-});
-
-Category.hasMany(Course, {
-  foreignKey: 'category_id',
-});
-
-//Saved Course && Account
-SavedCourse.belongsTo(User, {
-  foreignKey: 'user_id',
-});
-
-User.hasMany(SavedCourse, {
-  foreignKey: 'user_id',
-});
-
-module.exports = { User, Course, Category, Location, SavedCourse, Age };
+module.exports = { Course, Category, Location, Age };

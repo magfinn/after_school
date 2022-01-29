@@ -9,55 +9,42 @@ Course.init(
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
+      allowNull: false,
     },
-    title: {
+    course_title: {
       type: DataTypes.STRING,
     },
-    description: {
-      type: DataTypes.STRING(1234),
-    },
-    url: {
+    course_category: {
       type: DataTypes.STRING,
-      validate: {
-        isUrl: true,
-      },
-    },
-    contactFirstName: {
-      type: DataTypes.STRING,
-    },
-    contactLastName: {
-      type: DataTypes.STRING,
-    },
-    contactEmail: {
-      type: DataTypes.STRING,
-    },
-    category_id: {
-      type: DataTypes.INTEGER,
       references: {
         model: 'category',
         key: 'id',
       },
     },
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'id',
-      },
-    },
-    location_id: {
-      type: DataTypes.INTEGER,
+    course_location: {
+      type: DataTypes.STRING,
       references: {
         model: 'location',
         key: 'id',
       },
     },
-    age_id: {
-      type: DataTypes.INTEGER,
+    course_age: {
+      type: DataTypes.STRING,
       references: {
         model: 'age',
         key: 'id',
       },
+    },
+
+    course_url: {
+      type: DataTypes.STRING,
+      validate: {
+        isUrl: true,
+      },
+    },
+
+    course_description: {
+      type: DataTypes.STRING,
     },
   },
   {

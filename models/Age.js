@@ -10,9 +10,9 @@ Age.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: false,
     },
-    age_name: {
+    age_group: {
       type: DataTypes.STRING,
     },
   },

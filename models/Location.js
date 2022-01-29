@@ -9,9 +9,9 @@ Location.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: false,
     },
-    location_city: {
+    city: {
       type: DataTypes.STRING,
     },
   },

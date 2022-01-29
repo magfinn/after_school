@@ -16,6 +16,14 @@ router.get('/', (req, res) => {
 //GET/render new event form at /submit
 router.get('/new', (req, res) => res.render('newEvent'));
 
+// // Submit new event
+// router.post('/course/new', async ({ body }, res) => {
+//   console.log(body);
+//   const response = await signup(body);
+//   // Signup complete then render page again.
+//   res.render('homepage');
+// });
+
 // GET courses by category && location && age
 router.get('/:category/:location/:age', async (req, res) => {
   const category = await Course.findAll({

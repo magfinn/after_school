@@ -11,10 +11,13 @@ SavedCourse.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    saved_course: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+    // age_id: {
+    //   type: DataTypes.STRING,
+    //   references: {
+    //     model: 'age',
+    //     key: 'id',
+    //   },
+    // },
     user_id: {
       type: DataTypes.INTEGER,
       references: {

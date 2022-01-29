@@ -1,121 +1,171 @@
 <div class="card-form-container">
-        <div class="card">
           <h2 class="card-title">Submit your course, camp or event!</h2>
           <h4 class="card-subtitle">Fill out the details below to be included in Club Hub Kids' database.
           </h4>
-          <div class="card-content">
-        <form class="form-container" id="newEventForm" action="/api/courses" method="POST">
-          <div>
-            <div class="row">
+
+      <div class="card">
+        <form class="form-container" id="newEventForm" action="/api/course/new" method="POST">
               <div class="form-group">
-                <div>
                   Your Contact Information:
-                  <div class="col">
-                <label for="contactFirstName" class="form-text">First Name:</label>
-                <input type="name" class="form-control" id="first-name" name="firstname" />
-              </div>
-              <div class="col">
-                <label for="contactLastName" class="form-text">Last Name:</label>
-                <input type="name" class="form-control" id="last-name" name ="lastname" />
-              </div>
-              <div class="form-group">
-                <label for="contactEmail" class="form-text">Email:</label>
-                <input type="email" class="form-control" id="email" name="email" />
-                <div id="emailHelp" class="form-text"></div>
-              </div>
-              </div>
-                <label for="course_title">Name of the Class:</label>
-                <input type="text" class="form-control" id="course-title" name="courseTitle" />
-              {{!-- </div> --}}
-              {{!-- <div class="form-group"> --}}
-                <label for="description">Description of event:</label>
-                <input type="textarea" class="form-control" id="description" name ="description" />
-              {{!-- </div> --}}
-              {{!-- <div class="form-group"> --}}
-                <label for="url">Course Website:</label>
-                <input type="url" class="form-control" id="url" name="url"/>
-              
-                <label for="location" name="location">City:</label>
-                
-                <input type="checkbox" class="checkbox-options city" value="0">Antelope</option>
-                    <input type="checkbox" class= "checkbox-options location" value="1">Carmichael</option>
-                    <input type="checkbox" class= "checkbox-options location" value="2">Citrus Heights</option>
-                    <input type="checkbox" class= "checkbox-options location" value="3">El Dorado Hills</option>
-                    <input type="checkbox" class= "checkbox-options location" value="4">Elk Grove</option>
-                    <input type="checkbox" class= "checkbox-options location" value="5">Fair Oaks</option>
-                    <input type="checkbox" class= "checkbox-options location" value="6">Folsom</option>
-                    <input type="checkbox" class= "checkbox-options location" value="7">Galt</option>
-                    <input type="checkbox" class= "checkbox-options location" value="8">Lincoln</option>
-                    <input type="checkbox" class= "checkbox-options location" value="9">Lodi</option>
-                    <input type="checkbox" class= "checkbox-options location" value="10">Natomas</option>
-                    <input type="checkbox" class= "checkbox-options location" value="11">Rancho Cordova</option>
-                    <input type="checkbox" class= "checkbox-options location" value="12">Rocklin</option>
-                    <input type="checkbox" class= "checkbox-options location" value="13">Roseville</option>
-                    <input type="checkbox" class= "checkbox-options location" value="14">Sacramento</option>
-                    <input type="checkbox" class= "checkbox-options location" value="15">West Sacramento</option>
-                    <input type="checkbox" class= "checkbox-options location" value="16">Woodland</option>
-                    <input type="checkbox" class= "checkbox-options location" value="17">Davis</option>
-                    <input type="checkbox" class= "checkbox-options location" value="18">Online</option>
-                    <input type="checkbox" class= "checkbox-options location" value="19">Granite Bay</option>
-                    <input type="checkbox" class= "checkbox-options location" value="20">North Highlands</option>
-                     <input type="checkbox" class= "checkbox-options location" value="21">Auburn</option>
-                  </input>
+                    <label for="first-name" class="form-text">First Name:</label>
+                    <input type="name" class="form-control" id="first-name" name="firstName"/>
+                    <label for="last-name" class="form-text">Last Name:</label>
+                    <input type="name" class="form-control" id="last-name" name ="lastName"/>
+                    <label for="email" class="form-text">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email"/>
+                    <label for="course-title">Name of the Class:</label>
+                    <input type="text" class="form-control" id="course-title" name="title"/>
+                    <label for="description">Description of event:</label>
+                    <input type="textarea" class="form-control" id="description" name ="description"/>
+                    <label for="url">Course Website:</label>
+                    <input type="url" class="form-control" id="url" name="url" placeholder = 'https://'/>
+                </div>
+
+                <div class = "form-group" id="location-fields">
+                    Location:
+
+                    <label for="antelope">Antelope</label>
+                    <input type="checkbox" class="checkbox-options city" id="antelope" name="city[]" value="0">
+
+                    <label for="carmichael">Carmichael</label>
+                    <input type="checkbox" class= "checkbox-options city"  id="carmichael" name="city[]" value="1">
+
+                    <label for="citrus_heights">Citrus Heights</label>
+                    <input type="checkbox" class= "checkbox-options city" id="citrus_heights" name="city[]" value="2">
+
+                    <label for="el_dorado_hills">El Dorado Hills</label>
+                    <input type="checkbox" class= "checkbox-options city"  id="el_dorado_hills" name="city[]" value="3">
+
+                    <label for="elk_grove">Elk Grove</label>
+                    <input type="checkbox" class= "checkbox-options city"  id="elk_grove" name="city[]" value="4">
+
+                    <label for="fair_oaks">Fair Oaks </label>
+                    <input type="checkbox" class= "checkbox-options city"  id="fair_oaks" name="city[]" value="5">
+                    
+                    <label for="folsom">Folsom </label>
+                    <input type="checkbox" class= "checkbox-options city"  id="folsom" name="city[]" value="6">
+
+                    <label for="galt">Galt </label>
+                    <input type="checkbox" class= "checkbox-options city"  id="galt" name="city[]" value="7">
+
+                    <label for="lincoln">Lincoln </label>
+                    <input type="checkbox" class= "checkbox-options city"  id="lincoln" name="city[]" value="8">
+
+                    <label for="lodi">Lodi </label>
+                    <input type="checkbox" class= "checkbox-options city"  id="lodi" name="city[]" value="9">
+
+                    <label for="natomas">Natomas</label>
+                    <input type="checkbox" class= "checkbox-options city"  id="natomas" name="city[]" value="10">
+
+                    <label for="rancho_cordova">Rancho Cordova</label>
+                    <input type="checkbox" class= "checkbox-options city"  id="rancho_cordova" name="city[]" value="11">
+
+                    <label for="fair_oaks">Rocklin </label>
+                    <input type="checkbox" class= "checkbox-options city"  id="rocklin" name="city[]" value="12">
+
+                     <label for="roseville">Roseville</label>
+                     <input type="checkbox" class= "checkbox-options city"  id="roseville" name="city[]" value="13">
+                    
+                     <label for="sacramento">Sacramento</label>
+                     <input type="checkbox" class= "checkbox-options city"  id="sacramento" name="city[]" value="14">
+                    
+                     <label for="west_sacramento">West Sacramento</label>
+                     <input type="checkbox" class= "checkbox-options city"  id="west_sacramento" name="city[]" value="15">
+                    
+                     <label for="woodland">Woodland</label>
+                     <input type="checkbox" class= "checkbox-options city"  id="woodland" name="city[]" value="16">
+                    
+                     <label for="davis">Davis</label>
+                     <input type="checkbox" class= "checkbox-options city"  id="davis" name="city[]" value="17">
+                    
+                     <label for="online">Online</label>
+                     <input type="checkbox" class= "checkbox-options city"  id="online" name="city[]" value="18">
+                    
+                     <label for="granite_bay">Granite Bay</label>
+                     <input type="checkbox" class= "checkbox-options city"  id="granite_bay" name="city[]" value="19">
+                    
+                     <label for="north_highlands">North Highlands</label>
+                     <input type="checkbox" class= "checkbox-options city"  id="north-highlands" name="city[]" value="20">
+
+                      <label for="auburn">Auburn</label>
+                      <input type="checkbox" class= "checkbox-options city"  id="auburn" name="city[]" value="21">
 
                   </div>
-                </div>
-                
 
+                  <div class = "form-group">
+                    <label for="category" class='form-text category'>Category:</label>
 
-                  <label for="category" name="category">Category</label>
-                    
-                    <input type="checkbox" class="checkbox-options category" value="0">Arts</option>
-                    <input type="checkbox" class="checkbox-options category" value="1">Dance</option>
-                    <input type="checkbox" class="checkbox-options category" 
-                    value="2">Music</option>
-                    <input type="checkbox" class="checkbox-options category" value="3">Sports</option>
-                    <input type="checkbox" class="checkbox-options category" value="4">STEM</option>
-                    <input type="checkbox" class="checkbox-options category" value="5">Tutoring</option>
-                    <input type="checkbox" class="checkbox-options category" value="6">Summer/ Winter Camps</option>
-                    <input type="checkbox" class="checkbox-options category" value="7">Events</option>
-                    <input type="checkbox" class="checkbox-options category" value="8">Child Care</option>
-                    <input type="checkbox" class="checkbox-options category" value="9">After School Program</option>
-                  </input>
+                    <label for="arts">Arts</label>
+                    <input type="checkbox" class="checkbox-options category" id="arts" name="category[]" value="0">
+
+                    <label for="dance">Dance</label>
+                    <input type="checkbox" class= "checkbox-options category"  id="dance" name="category[]" value="1">
+
+                    <label for="music">Music</label>
+                    <input type="checkbox" class= "checkbox-options category" id="music" name="category[]" value="2">
+
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" class= "checkbox-options category"  id="sports" name="category[]" value="3">
+
+                    <label for="stem">STEM</label>
+                    <input type="checkbox" class= "checkbox-options category"  id="stem" name="category[]" value="4">
+
+                    <label for="tutoring">Tutoring</label>
+                    <input type="checkbox" class= "checkbox-options category"  id="tutoring" name="category[]" value="5">
+
+                    <label for="camps">Camps</label>
+                    <input type="checkbox" class= "checkbox-options category" id="camps" name="category[]" value="6">
+
+                    <label for="events">Events</label>
+                    <input type="checkbox" class= "checkbox-options category"  id="events" name="category[]" value="7">
+
+                    <label for="child_care">Child Care</label>
+                    <input type="checkbox" class= "checkbox-options category"  id="child_care" name="category[]" value="8">
+      
+                    <label for="after_school">After School Program</label>
+                    <input type="checkbox" class= "checkbox-options category"  id="after_school" name="category[]" value="9">
+
                 </div>
-                </div>
-              </div>
-              <div class="form-group">
-                  <label for="age">Ages:</label>
-                  <div class="form-group form-text">
-                  Select all that apply:
-                 <div class="outlined">
-                    <input type="checkbox" class="checkbox-options ages" value="0">Infant/Toddler</option>
-                    <input type="checkbox" class="checkbox-options ages" value="1">Preschool</option>
-                    <input type="checkbox" class="checkbox-options ages" value="2">Elementary School</option>
-                    <input type="checkbox" class="checkbox-options ages" value="3">Middle School</option>
-                    <input type="checkbox" class="checkbox-options ages" value="4">High School</option>
-                  </input>
-                </div>
-                </div>
+
+                  <div class = "form-group">
+                    <label for="age" class='form-text age'>Age group:</label>
+
+                    <label for="infant_toddler">Infant/Toddler</label>
+                    <input type="checkbox" class="checkbox-options age" id="infant_toddler" name="age[]" value="0">
+
+                    <label for="preschool">Preschool</label>
+                    <input type="checkbox" class= "checkbox-options age"  id="preschool" name="age[]" value="1">
+
+                    <label for="elementary">Elementary School</label>
+                    <input type="checkbox" class= "checkbox-options age" id="elementary" name="age[]" value="2">
+
+                    <label for="middle">Middle School</label>
+                    <input type="checkbox" class= "checkbox-options age"  id="middle" name="age[]" value="3">
+
+                    <label for="high">High School</label>
+                    <input type="checkbox" class= "checkbox-options age"  id="high" name="age[]" value="4">
+
                 </div>
               
                 <div class="card-footer">
-                  <label for="accept-terms" class="form-check-label">Accept Terms &amp; Conditions</label>
+
+                  <label for="accept-terms" name="accept-terms" class="form-check-label">Accept Terms &amp; Conditions</label>
                   <input type="checkbox" id="accept-terms" class="form-check-input">
+
                 </div>
-                <div class="form-group">
-                <button id = "new-event-btn" type="submit" class="btn btn-primary  btn-block" value="submit">Submit</button>
-                </div>
+
+                <button id = "new-form-submit" type="submit" class="btn btn-primary  btn-block" value="submit">Submit</button>
         </form>
-        </div>
-        </div>
       </div>
+    </div>
+
       {{!-- {{#if message}}
       <h4 class="alert alert-danger  mt-4">{{message}}</h4>
       {{/if}} --}}
-    </main>
-  </div>
+
 
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
   {{/if}}
+
   <script src = "../js/newEvent.js"></script>
