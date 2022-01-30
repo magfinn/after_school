@@ -1,41 +1,37 @@
- <section class="hero is-medium">
-          <div class="hero-body">
-                <form id="course-search">
-                    <input name="course-input" id="course-input" class="search" type="text" placeholder="Search Courses">
-                    </input>
-                     <select name="Categories" id="Categories" class="search-categories">
-                         <option>Search by Category</opton>
-                       <option value="ARTS">Arts</option>
-	                     <option value="SPORTS">Sports</option>
-                       <option value="MUSIC">Music</option>
-                       <option value="STEM">STEM</option>
-                       <option value="DANCE">Dance</option>
-                       <option value="TUTORING">Tutoring</option>
-                       <option value="SUMMER/WINTER CAMPS">Summer and Winter Camps</option>
-                       <option value="CHILD CARE">Child Care</option>
-                     </select>
-              
-                     <select name="Locations" id="Locations">
-                       <option value="CITY" selected>Search by City</option>
-                       <option value="Carmichael">Carmichael</option>
-                       <option value="Citrus Heights">Citrus Heights</option>
-                       <option value="Davis">Davis</option>
-                       <option value="El Dorado Hills">El Dorado Hills</option>
-                       <option value="Elk Grove">Elk Grove</option>
-                       <option value="Fair Oaks">Fair Oaks</option>
-                       <option value="Folsom">Folsom</option>
-                       <option value="Galt">Galt</option>
-                       <option value="Lincoln">Lincoln</option>
-                       <option value="Lodi">Lodi</option>
-                       <option value="Natomas">Natomas</option>
-                       <option value="Rachno Cordova">Rachno Cordova</option>
-                       <option value="Rocklin">Rocklin</option>
-                       <option value="Roseville">Roseville</option>
-                       <option value="Sacramento">Sacramento</option>
-                       <option value="West Sacramento">West Sacramento</option>
-                       <option value="Woodland">Woodland</option>
-                     </select> 
-                     <button class="button" id="search-btn">Search</button>      
-            </div>
-      </form>  
-    </div>    
+                <div class="card-container" id="categories">
+
+                  <a href="http://localhost:3001/courses/arts">
+                  <div class="card card-cats" id="arts">
+                      <h1 class = "card-content">Arts</h1>
+                  </div></a>
+                  <a href="http://localhost:3001/courses/dance">
+                  <div class="card card-cats" id="dance">
+                    <h1 class = "card-content">Dance</h1>
+                  </div></a>
+                  <a href="http://localhost:3001/courses/music">
+                  <div class="card card-cats" id="music">
+                    <h1 class = "card-content">Music</h1>
+                  </div></a>
+                   <a href="http://localhost:3001/courses/sports">
+                  <div class="card card-cats" id="sports">
+                    <h1 class = "card-content">Sports</h1>
+                  </div></a>
+                  <a href="http://localhost:3001/courses/stem">
+                  <div class="card card-cats" id="stem">
+                    <h1 class = "card-content">STEM</h1>
+                  </div></a>
+                  <a href="http://localhost:3001/courses/tutoring">
+                  <div class="card card-cats" id="tutoring">
+                    <h1 class = "card-content">Tutoring</h1>
+                  </div></a>
+                  <a href="http://localhost:3001/courses/camps">
+                  <div class="card card-cats" id="camps">
+                    <h1 class = "card-content">Summer/Winter Camps</h1>
+                  </div></a>
+                  <a href="http://localhost:3001/courses/childCare">
+                  <div class="card card-cats" id="childCare">
+                    <h1 class = "card-content">Child Care</h1>
+                  </div></a>
+            </div>  
+
+            {{!-- <script src="../public/javascript/courses.js"></script> --}}

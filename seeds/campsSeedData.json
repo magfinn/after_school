@@ -1,0 +1,227 @@
+[
+    {
+        "id": "1",
+        "Name": "Academy Learning",
+        "Category": "Tutoring, STEM, Summer/Winter Camp",
+        "Location": "Sacramento, Roseville, Natomas, Folsom",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://academy-learning.com/?utm_source=Sacramento4Kids",
+        "Description": "Academy Learning is a complete K-12 learning center offering Tutoring, STEM classes, and HomeLearners, Junior Academy, and College-Bound programs. Also offering Summer Camps for Academics and STEAM. Book your Science-Themed Birthday Party!"
+    },
+    {
+        "id": "2",
+        "Name": "Amazing Athletes of Northern Sacramento",
+        "Category": "Sports, Summer/Winter Camps",
+        "Location": "Antelope, Sacramento",
+        "Age": "Preschool, Elementary, Middle",
+        "Website": "http://amazingathletes.com/northernsacramento/?utm_source=Sacramento4Kids",
+        "Description": "Physical Education and Sports classes for all ages and development. We offer Virtual and in-person classes at a location convenient to you throughout the Sacramento area."
+    },
+    {
+        "id": "10",
+        "Name": "Music Together 916 Valley",
+        "Category": "Music, Summer/Winter Camps",
+        "Location": "Elk Grove",
+        "Age": "Infant/Toddler, Preschool, Elementary",
+        "Website": "http://musictogether916valley.com/",
+        "Description": "From babyhood through the early elementary years, Music Together nurtures each child’s natural musicality in a playful, musically rich learning environment. Our research-based music classes are designed to be non-formal and non-performance oriented, so your child can learn at his or her own pace, in a way that’s developmentally appropriate."
+    },
+    {
+        "id": "15",
+        "Name": "Spanish Immersion Program",
+        "Category": "Arts, Tutoring, Other, Summer/Winter Camps",
+        "Location": "Sacramento, East Sacramento",
+        "Age": "Infant/Toddler, Preschool, Elementary",
+        "Website": "http://thespanishimmersionclasses.com/?utm_source=Sacramento4Kids",
+        "Description": "Our structured program helps to build a sense of security where children feel comfortable to learn Spanish. Within this structure there is also flexibility to ensure we meet the needs of all the children and their different styles of learning and levels of confidence."
+    },
+    {
+        "id": "25",
+        "Name": "Cordova Recreation & Park District",
+        "Category": "Music, Dance, Summer/Winter Camps",
+        "Location": "Rancho Cordova",
+        "Age": "Infant/Toddler, Preschool, Elementary, Middle, High",
+        "Website": "http://www.crpd.com/",
+        "Description": "Proudly meeting the park and recreation needs of Mather, Rosemont, Larchmont, Gold River, Anatolia and the City of Rancho Cordova residents."
+    },
+    {
+        "id": "26",
+        "Name": "Family Taekwondo Plus",
+        "Category": "Sports, Summer/Winter Camps",
+        "Location": "Citrus Heights",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.famtkdplus.com/?utm_source=Sacramento4Kids",
+        "Description": "Family Taekwondo Plus is the premier self defense learning center in Citrus Heights! We are a family owned and operated Martial Arts school. We offer a variety of classes for all age groups, as well as many other programs and services designed to help our clients and community."
+    },
+    {
+        "id": "29",
+        "Name": "Free Flow Academy",
+        "Category": "Music, Sports, Summer/Winter Camps",
+        "Location": "Rocklin",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.freeflowacademy.com/",
+        "Description": "We are a literal Hybrid Arts training center centered on the flowing disciplines of Parkour, Freerunning, Tumbling, Martial Arts, Aerial Arts, Acting, Music, and more."
+    },
+    {
+        "id": "35",
+        "Name": "Musical Mayhem Productions",
+        "Category": "Music, Summer/Winter Camps",
+        "Location": "Elk Grove, Sacramento",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.mmpkids.com/?utm_source=Sacramento4Kids",
+        "Description": "Musical Mayhem Productions is a 501(c)(3) tax exempt nonprofit in Elk Grove, CA that specializes in quality theater education for children and special needs adults through rehearsal and workshop classes. The educational classes enrich participants by expanding creativity and enhancing confidence while conveying the importance of Theater Arts to the community through educational, fun, and entertaining performances."
+    },
+    {
+        "id": "40",
+        "Name": "Natomas Music Square",
+        "Category": "Music, Summer/Winter Camps",
+        "Location": "Natomas",
+        "Age": "",
+        "Website": "http://www.natomasmusicsquare.com/",
+        "Description": "Natomas Music Square opened in 2011 and has been providing Sacramento with music lessons for children and adults of all ages. When Cindy began NMS, it started as a humble in-home lesson service and has grown into a fully staffed, independent music school, achieving its success by following one key principle: Music is an amazing art form that speaks to people."
+    },
+    {
+        "id": "41",
+        "Name": "North Highlands Recreation and Park District",
+        "Category": "Summer/Winter Camp, STEM, Arts, Sports",
+        "Location": "North Highlands",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.nhrpd.org/?utm_source=Sacramento4Kids",
+        "Description": "We offer programs and activities for families and individuals of all ages! Camps, sports, games, activities, classes, free community events, and much more!"
+    },
+    {
+        "id": "42",
+        "Name": "Northern California School of the Arts",
+        "Category": "Art, Music, Dance, Summer/Winter Camps",
+        "Location": "Land Park Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.norcalsota.org/?utm_source=Sacramento4Kids",
+        "Description": "Northern California School of the Arts offers introductory and professional actor training, personal growth and leadership development programs, classes, and camps (in-person and virtual) for all students of all ages that are based on a holistic approach using social-emotional learning and culturally responsive strategies that empower students from diverse communities to discover and grow their voice, confidence and create a positive mindset towards themselves and their communities."
+    },
+    {
+        "id": "47",
+        "Name": "Sacramento Childrens Chorus",
+        "Category": "Music, Summer/Winter Camps",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle",
+        "Website": "http://www.sacramentochildrenschorus.org/",
+        "Description": "Enriching the lives of Sacramento youth through progressive music education, vocal performance, social and service opportunities. Offering summer camp July 16-20 for 2nd to 6th grade and spring break camp all ages in spring 2019.\r\n"
+    },
+    {
+        "id": "53",
+        "Name": "Bach to Rock - Folsom",
+        "Category": "Music, Summer/Winter Camps",
+        "Location": "Folsom",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://folsom.b2rmusic.com/",
+        "Description": "You’re never too young to play and create music. Introducing toddlers and very young children to music, rhythm and motion supports cognitive development, learning and motor skills. B2R Early Childhood classes combine structured musical games and activities to promote learning and musical growth and expose children to the fundamentals of music."
+    },
+    {
+        "id": "54",
+        "Name": "Grade Power Learning",
+        "Category": "Tutoring, Summer/Winter Camps",
+        "Location": "Elk Grove",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://gradepowerlearning.com/locations/elk-grove-tutoring/?utm_source=Sacramento4Kids",
+        "Description": "We teach the importance of time management, problem-solving and homework techniques. We promote active thinking and teach children to discover their own learning process. Students are encouraged to take chances, make leaps, and try and try again."
+    },
+    {
+        "id": "58",
+        "Name": "Back to Rock",
+        "Category": "Music, Summer/Winter Camps",
+        "Location": "Rocklin, Roseville, Lincoln, Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://rocklin.b2rmusic.com/",
+        "Description": "Bach to Rock in Rocklin, CA provides music lessons for students of all ages and skill levels living in Rocklin, Roseville & Lincoln. Instruments we teach include guitar, piano, drums, voice, violin, trumpet & more!"
+    },
+    {
+        "id": "62",
+        "Name": "916 ink",
+        "Category": "Summer/Winter Camp",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://www.916ink.org/amplify",
+        "Description": "Sign up for our Creative Writing Summer Camp on our website and see if you qualify for a free admission!"
+    },
+    {
+        "id": "63",
+        "Name": "Albedo Arts Community",
+        "Category": "Art, Music, Dance, Summer/Winter Camps",
+        "Location": "Sacramento",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.albedoartsacademy.com/",
+        "Description": "Albedo Arts Community is a unique learning experience for children and adults of all ages with different interest. We offer classes in music, dance, gymnastics, Pilates, Zumba, Ballroom sports dance, Cardio fitness, social ballroom dance party, fine arts for all ages and skill level at affordable rates."
+    },
+    {
+        "id": "64",
+        "Name": "CLARA",
+        "Category": "Dance, Music, Summer/Winter Camps",
+        "Location": "Midtown Sacramento",
+        "Age": "Middle, High",
+        "Website": "https://www.claramidtown.org/arts-education/clara-performing-arts-summer-camp/",
+        "Description": "Performing arts summer camp featuring dance, music, and theatre for ages 11-18. Interactive programming, energizing activities and 15 different kinds of performing arts over two weeks mean that CLARA Performing Arts Camp will engage your child’s imagination, boost their personal pride, and engage powerful bonds that will last a lifetime."
+    },
+    {
+        "id": "65",
+        "Name": "Code Ninjas",
+        "Category": "STEM, Summer/Winter Camps",
+        "Location": "Elk Grove, Folsom, Rocklin",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://www.codeninjas.com/locations/ca-rocklin/?utm_source=Sacramento4Kids",
+        "Description": "Transform your child’s love for technology into an exciting learning adventure. Guided by their team of Code Senseis, Code Ninjas Summer Camps empower kids to gain valuable tech skills and make new friends."
+    },
+    {
+        "id": "69",
+        "Name": "Galaxy Dance Arts",
+        "Category": "Dance, Summer/Winter Camps",
+        "Location": "Elk Grove",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.galaxydancearts.com/?utm_source=Sacramento4Kids",
+        "Description": "Galaxy Dance Arts offers a variety of dance styles to students of all ages and abilities. We focus on proper placement, technique and, especially, joy in movement -- from our pre-dance students up to our pre-professionals."
+    },
+    {
+        "id": "76",
+        "Name": "Precision Dance Center",
+        "Category": "Dance, Summer/Winter Camps",
+        "Location": "Roseville",
+        "Age": "Infant/Toddler, Preschool, Elementary, Middle, High",
+        "Website": "https://www.precisiondancecenter.net/?utm_source=Sacramento4Kids",
+        "Description": "Precision Dance Center teachers have a strong commitment to teaching excellence while also fostering a positive and encouraging learning environment. Offering many years of experience teaching dance, each staff member demonstrates passion and dedication to dance in their area of expertise.\r\n"
+    },
+    {
+        "id": "80",
+        "Name": "Sierra Mountain Music Camp",
+        "Category": "Music, Summer/Winter Camps",
+        "Location": "",
+        "Age": "",
+        "Website": "https://www.sierramountainmusiccamp.org/register",
+        "Description": "Sierra Mountain Music Camp has been lucky enough to have some wonderful talents in the roles of Music Directors. We have award winning directors, many of whom have received national recognition, and have studied among other great talents. In addition to being wonderful directors, these people have inspired many former campers to pursue a lifelong devotion to music, and have kept the flame of music alive in the hearts of hundreds of former campers."
+    },
+    {
+        "id": "82",
+        "Name": "The Boulder Field",
+        "Category": "Summer/Winter Camp",
+        "Location": "Sacramento",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.theboulderfield.com/?utm_source=Sacramento4Kids",
+        "Description": "The Boulder Field (TBF) is Sacramento’s newest and most exciting rock climbing and fitness gym. Conveniently located at 8425 Belvedere Ave, Suite 100, between Power Inn and Florin Perkins, just south of I50, offers something for everyone."
+    },
+    {
+        "id": "83",
+        "Name": "Young Gates",
+        "Category": "STEM, Tutoring, Summer/Winter Camp",
+        "Location": "Online",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.younggates.com/?utm_source=Sacramento4Kids",
+        "Description": "YoungGates provides cutting-edge live online computer science classes for kids from ages 9 and 18 years. Ex: Scratch, Python, Java, Website, App, Data, Photoshop, Gaming, Animation, Math, Rubiks, and more"
+    },
+    {
+        "id": "84",
+        "Name": "ArtBeast Childrens Studio",
+        "Category": "Music, Dance, Art, Summer/Winter camps",
+        "Location": "Sacramento",
+        "Age": "Infant/Toddler, Preschool, Elementary",
+        "Website": "http://www.artbeaststudio.com/",
+        "Description": "ArtBeast is a drop in arts exploration space for children featuring an open studio, arts classes, and arts exploration rooms. Though all children are welcome to visit ArtBeast, special focus is given to creating an environment for children under 6.The open studio features tables, easels, and clay mounds where young artists can work. Surrounding shelves are stocked with paint, papers, objects from nature, recycled tidbits, glues, crayons, glitter, scissors, an array of brushes, and an even wider offering of objects from which to make art. Children develop confidence in expressing and messing as they create art pieces that convey their sense of the world. ArtBeast classes emphasize exploration over specialization."
+    }
+  ]

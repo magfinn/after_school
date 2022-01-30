@@ -1,9 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
 
-class Course extends Model {}
+const sequelize = require('../config/connection.js');
 
-Course.init(
+class STEM extends Model {}
+
+STEM.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -27,19 +28,16 @@ Course.init(
       },
     },
     description: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
     },
-    category: {
-      type: DataTypes.STRING,
-    }
   },
   {
     sequelize,
     timestamps: true,
     freezeTableName: true,
     underscored: true,
-    modelName: 'course',
+    modelName: 'stem',
   }
 );
 
-module.exports = Course;
+module.exports = STEM;

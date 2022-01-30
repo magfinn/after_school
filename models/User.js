@@ -1,6 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
+const { Course } = require('.');
 
 // create our User model
 class User extends Model {
@@ -41,6 +42,15 @@ User.init(
     },
     last_name: {
       type: DataTypes.STRING,
+    },
+    saved_course1: {
+      type: DataTypes.INTEGER,
+    },
+    saved_course2: {
+      type: DataTypes.INTEGER,
+    },
+    saved_course3: {
+      type: DataTypes.INTEGER,
     },
   },
   {

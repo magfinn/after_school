@@ -1,11 +1,27 @@
 const sequelize = require('../config/connection');
-const { Course, User, Location, Category, Age } = require('../models');
+const {
+  Course,
+  User,
+  Arts,
+  Camps,
+  ChildCare,
+  Dance,
+  Music,
+  Sports,
+  STEM,
+  Tutoring,
+} = require('../models');
 
+// const courseSeedData = require('./courseSeedData.json');
 // const userSeedData = require('./userSeedData.json');
-const courseSeedData = require('./courseSeedData.json');
-const categorySeedData = require('./categorySeedData.json');
-const locationSeedData = require('./locationSeedData');
-const ageSeedData = require('./ageSeedData.json');
+// const ArtsSeedData = require('./artsSeedData.json');
+// const DanceSeedData = require('./danceSeedData.json');
+// const CampsSeedData = require('./campsSeedData.json');
+// const MusicSeedData = require('./musicSeedData.json');
+// const SportsSeedData = require('./sportsSeedData.json');
+const STEMSeedData = require('./stemSeedData.json');
+// const TutoringSeedData = require('./tutoringSeedData.json');
+// const ChildCareSeedData = require('./childCareSeedData.json');
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
@@ -14,24 +30,43 @@ const seedDatabase = async () => {
   //   individualHooks: true,
   //   returning: true,
   // });
+  // await Arts.bulkCreate(ArtsSeedData, {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
+  // await Dance.bulkCreate(DanceSeedData, {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
 
-  await Location.bulkCreate(locationSeedData, {
-    individualHooks: true,
-    returning: true,
-  });
-  await Category.bulkCreate(categorySeedData, {
-    individualHooks: true,
-    returning: true,
-  });
-  await Age.bulkCreate(ageSeedData, {
+  // await Course.bulkCreate(courseSeedData, {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
+
+  // await Camps.bulkCreate(CampsSeedData, {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
+  // await Music.bulkCreate(MusicSeedData, {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
+  // await Sports.bulkCreate(SportsSeedData, {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
+
+  await STEM.bulkCreate(STEMSeedData, {
     individualHooks: true,
     returning: true,
   });
 
-  await Course.bulkCreate(courseSeedData, {
-    individualHooks: true,
-    returning: true,
-  });
+  // await Tutoring.bulkCreate(TutoringSeedData, {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
+
   process.exit(0);
 };
 

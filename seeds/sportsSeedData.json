@@ -1,0 +1,47 @@
+[
+    {
+        "id": "2",
+        "Name": "Amazing Athletes of Northern Sacramento",
+        "Category": "Sports, Summer/Winter Camps",
+        "Location": "Antelope, Sacramento",
+        "Age": "Preschool, Elementary, Middle",
+        "Website": "http://amazingathletes.com/northernsacramento/?utm_source=Sacramento4Kids",
+        "Description": "Physical Education and Sports classes for all ages and development. We offer Virtual and in-person classes at a location convenient to you throughout the Sacramento area."
+    },
+    {
+        "id": "26",
+        "Name": "Family Taekwondo Plus",
+        "Category": "Sports, Summer/Winter Camps",
+        "Location": "Citrus Heights",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.famtkdplus.com/?utm_source=Sacramento4Kids",
+        "Description": "Family Taekwondo Plus is the premier self defense learning center in Citrus Heights! We are a family owned and operated Martial Arts school. We offer a variety of classes for all age groups, as well as many other programs and services designed to help our clients and community."
+    },
+    {
+        "id": "29",
+        "Name": "Free Flow Academy",
+        "Category": "Music, Sports, Summer/Winter Camps",
+        "Location": "Rocklin",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.freeflowacademy.com/",
+        "Description": "We are a literal Hybrid Arts training center centered on the flowing disciplines of Parkour, Freerunning, Tumbling, Martial Arts, Aerial Arts, Acting, Music, and more."
+    },
+    {
+        "id": "36",
+        "Name": "Move! Studio",
+        "Category": "Arts, Dance, Sports",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.movestudio.net/",
+        "Description": "Move! is a cultural center, fitness facility, and capoeira academy in Sacramento, California. This 3300 sq/ft facility includes tumbling mats, free weights, wood dance floor, mirrors, over 50 brazilian percussion instruments, sound system, an unique and inspiring atmosphere, and more. Move! is home to the group Água de Beber, and is Sacramento's only capoeira school. Classes at Move! are fun, active, and can be taken by anyone."
+    },
+    {
+        "id": "41",
+        "Name": "North Highlands Recreation and Park District",
+        "Category": "Summer/Winter Camp, STEM, Arts, Sports",
+        "Location": "North Highlands",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.nhrpd.org/?utm_source=Sacramento4Kids",
+        "Description": "We offer programs and activities for families and individuals of all ages! Camps, sports, games, activities, classes, free community events, and much more!"
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "Name": "Academy Learning",
+        "Category": "Tutoring, STEM, Summer/Winter Camp",
+        "Location": "Sacramento, Roseville, Natomas, Folsom",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://academy-learning.com/?utm_source=Sacramento4Kids",
+        "Description": "Academy Learning is a complete K-12 learning center offering Tutoring, STEM classes, and HomeLearners, Junior Academy, and College-Bound programs. Also offering Summer Camps for Academics and STEAM. Book your Science-Themed Birthday Party!"
+    },
+    {
+        "id": "41",
+        "Name": "North Highlands Recreation and Park District",
+        "Category": "Summer/Winter Camp, STEM, Arts, Sports",
+        "Location": "North Highlands",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.nhrpd.org/?utm_source=Sacramento4Kids",
+        "Description": "We offer programs and activities for families and individuals of all ages! Camps, sports, games, activities, classes, free community events, and much more!"
+    },
+    {
+        "id": "61",
+        "Name": "3D Bear",
+        "Category": "STEM",
+        "Location": "Online",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://www.3dbear.io/",
+        "Description": "Our mission is to help educators create an environment in which students can learn life-skills that will make them successful in the 21st century â to elicit collaboration, improve multidisciplinary skills, develop a growth mindset and creative problem solving. We empower students to become active innovators and influencers who take initiative with confidence."
+    },
+    {
+        "id": "65",
+        "Name": "Code Ninjas",
+        "Category": "STEM, Summer/Winter Camps",
+        "Location": "Elk Grove, Folsom, Rocklin",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://www.codeninjas.com/locations/ca-rocklin/?utm_source=Sacramento4Kids",
+        "Description": "Transform your childâs love for technology into an exciting learning adventure. Guided by their team of Code Senseis, Code Ninjas Summer Camps empower kids to gain valuable tech skills and make new friends."
+    },
+    {
+        "id": "67",
+        "Name": "Whitehat Jr",
+        "Category": "STEM",
+        "Location": "Online",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://www.dpbolvw.net/click-9274033-14337974",
+        "Description": "Do you want your kid to create the worldâs next big tech platform? Whitehat Jr's mission is to empower a whole generation to become creators versus consumers of technology.We teach fundamentals of coding--logic, structure, sequence and algorithmic thinking to enable kids to generate creative outcomes eg websites, animations and apps."
+    },
+    {
+        "id": "73",
+        "Name": "Kaleidoscope Holistic Learning Center",
+        "Category": "Tutoring, STEM ",
+        "Location": "Rancho Cordova",
+        "Age": "Preschool, Elementary, Middle",
+        "Website": "https://www.kaleidoschool.org/?utm_source=Sacramento4Kids",
+        "Description": "Kaleidoscope Holistic Learning Center is a nonprofit organization dedicated to helping the community. We provide engaging enrichment and intervention courses for PreK â 8th grade students. We approach learning with a variety of innovative methods, such as brain-based learning, to empower students in their education and life.  We offer a choice of meaningful courses including core academics, the arts, wellness, and life skills."
+    },
+    {
+        "id": "83",
+        "Name": "Young Gates",
+        "Category": "STEM, Tutoring, Summer/Winter Camp",
+        "Location": "Online",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.younggates.com/?utm_source=Sacramento4Kids",
+        "Description": "YoungGates provides cutting-edge live online computer science classes for kids from ages 9 and 18 years. Ex: Scratch, Python, Java, Website, App, Data, Photoshop, Gaming, Animation, Math, Rubiks, and more"
+    }
+  ]

@@ -1,0 +1,110 @@
+[
+    {
+        "id": "7",
+        "Name": "Help Me Grow Yolo County",
+        "Category": "Arts, Dance, Music",
+        "Location": "Woodland",
+        "Age": "Infant/Toddler, Preschool",
+        "Website": "http://helpmegrowyolo.org/",
+        "Description": "We provide free developmental playgroups led by licensed therapists -We provide basic needs assistance -developmental Screenings"
+    },
+    {
+        "id": "25",
+        "Name": "Cordova Recreation & Park District",
+        "Category": "Music, Dance, Summer/Winter Camps",
+        "Location": "Rancho Cordova",
+        "Age": "Infant/Toddler, Preschool, Elementary, Middle, High",
+        "Website": "http://www.crpd.com/",
+        "Description": "Proudly meeting the park and recreation needs of Mather, Rosemont, Larchmont, Gold River, Anatolia and the City of Rancho Cordova residents."
+    },
+    {
+        "id": "34",
+        "Name": "Malko Performing Arts Academy",
+        "Category": "Arts, Dance",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.malkodance.com/?utm_source=Sacramento4Kids",
+        "Description": "Malko Performing Arts Academy is Sacramento’s Leading Kids-Youth Ballroom, Latin, Dance Sport and Dance Theater Academy."
+    },
+    {
+        "id": "36",
+        "Name": "Move! Studio",
+        "Category": "Arts, Dance, Sports",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.movestudio.net/",
+        "Description": "Move! is a cultural center, fitness facility, and capoeira academy in Sacramento, California. This 3300 sq/ft facility includes tumbling mats, free weights, wood dance floor, mirrors, over 50 brazilian percussion instruments, sound system, an unique and inspiring atmosphere, and more. Move! is home to the group Água de Beber, and is Sacramento's only capoeira school. Classes at Move! are fun, active, and can be taken by anyone."
+    },
+    {
+        "id": "42",
+        "Name": "Northern California School of the Arts",
+        "Category": "Art, Music, Dance, Summer/Winter Camps",
+        "Location": "Land Park Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.norcalsota.org/?utm_source=Sacramento4Kids",
+        "Description": "Northern California School of the Arts offers introductory and professional actor training, personal growth and leadership development programs, classes, and camps (in-person and virtual) for all students of all ages that are based on a holistic approach using social-emotional learning and culturally responsive strategies that empower students from diverse communities to discover and grow their voice, confidence and create a positive mindset towards themselves and their communities."
+    },
+    {
+        "id": "50",
+        "Name": "Amped Dance Studios",
+        "Category": "Dance",
+        "Location": "Citrus Heights",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://ampeddancestudios.com/?utm_source=Sacramento4Kids",
+        "Description": "Work with choreographer, Ana Maria Perales. She has worked for Disney Pictures, Six Flags Enterainment, Millennium Dance Complex in Los Angeles, Sacramento Theatre Company and Sac Ballet."
+    },
+    {
+        "id": "63",
+        "Name": "Albedo Arts Community",
+        "Category": "Art, Music, Dance, Summer/Winter Camps",
+        "Location": "Sacramento",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.albedoartsacademy.com/",
+        "Description": "Albedo Arts Community is a unique learning experience for children and adults of all ages with different interest. We offer classes in music, dance, gymnastics, Pilates, Zumba, Ballroom sports dance, Cardio fitness, social ballroom dance party, fine arts for all ages and skill level at affordable rates."
+    },
+    {
+        "id": "64",
+        "Name": "CLARA",
+        "Category": "Dance, Music, Summer/Winter Camps",
+        "Location": "Midtown Sacramento",
+        "Age": "Middle, High",
+        "Website": "https://www.claramidtown.org/arts-education/clara-performing-arts-summer-camp/",
+        "Description": "Performing arts summer camp featuring dance, music, and theatre for ages 11-18. Interactive programming, energizing activities and 15 different kinds of performing arts over two weeks mean that CLARA Performing Arts Camp will engage your child’s imagination, boost their personal pride, and engage powerful bonds that will last a lifetime."
+    },
+    {
+        "id": "68",
+        "Name": "Fancy Feet Dance Academy & Parties",
+        "Category": "Dance",
+        "Location": "East Sacramento, Sacramento, Land Park",
+        "Age": "Infant/Toddler, Preschool, Elementary, Middle, High",
+        "Website": "https://www.fancyfeetdance.net/?utm_source=Sacramento4Kids",
+        "Description": "Nestled in the heart of East Sacramento, only minutes away from the campus of CSU Sacramento, our studio is easily accessed from all parts of the greater Sacramento region."
+    },
+    {
+        "id": "69",
+        "Name": "Galaxy Dance Arts",
+        "Category": "Dance, Summer/Winter Camps",
+        "Location": "Elk Grove",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.galaxydancearts.com/?utm_source=Sacramento4Kids",
+        "Description": "Galaxy Dance Arts offers a variety of dance styles to students of all ages and abilities. We focus on proper placement, technique and, especially, joy in movement -- from our pre-dance students up to our pre-professionals."
+    },
+    {
+        "id": "76",
+        "Name": "Precision Dance Center",
+        "Category": "Dance, Summer/Winter Camps",
+        "Location": "Roseville",
+        "Age": "Infant/Toddler, Preschool, Elementary, Middle, High",
+        "Website": "https://www.precisiondancecenter.net/?utm_source=Sacramento4Kids",
+        "Description": "Precision Dance Center teachers have a strong commitment to teaching excellence while also fostering a positive and encouraging learning environment. Offering many years of experience teaching dance, each staff member demonstrates passion and dedication to dance in their area of expertise.\r\n"
+    },
+    {
+        "id": "84",
+        "Name": "ArtBeast Childrens Studio",
+        "Category": "Music, Dance, Art, Summer/Winter Camps",
+        "Location": "Sacramento",
+        "Age": "Infant/Toddler, Preschool, Elementary",
+        "Website": "http://www.artbeaststudio.com/",
+        "Description": "ArtBeast is a drop in arts exploration space for children featuring an open studio, arts classes, and arts exploration rooms. Though all children are welcome to visit ArtBeast, special focus is given to creating an environment for children under 6.The open studio features tables, easels, and clay mounds where young artists can work. Surrounding shelves are stocked with paint, papers, objects from nature, recycled tidbits, glues, crayons, glitter, scissors, an array of brushes, and an even wider offering of objects from which to make art. Children develop confidence in expressing and messing as they create art pieces that convey their sense of the world. ArtBeast classes emphasize exploration over specialization."
+    }
+]

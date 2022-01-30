@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "Name": "Academy Learning",
+        "Category": "Tutoring, STEM, Summer/Winter Camp",
+        "Location": "Sacramento, Roseville, Natomas, Folsom",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://academy-learning.com/?utm_source=Sacramento4Kids",
+        "Description": "Academy Learning is a complete K-12 learning center offering Tutoring, STEM classes, and HomeLearners, Junior Academy, and College-Bound programs. Also offering Summer Camps for Academics and STEAM. Book your Science-Themed Birthday Party!"
+    },
+    {
+        "id": "15",
+        "Name": "Spanish Immersion Program",
+        "Category": "Arts, Tutoring, Other, Summer/Winter Camps",
+        "Location": "Sacramento, East Sacramento",
+        "Age": "Infant/Toddler, Preschool, Elementary",
+        "Website": "http://thespanishimmersionclasses.com/?utm_source=Sacramento4Kids",
+        "Description": "Our structured program helps to build a sense of security where children feel comfortable to learn Spanish. Within this structure there is also flexibility to ensure we meet the needs of all the children and their different styles of learning and levels of confidence."
+    },
+    {
+        "id": "23",
+        "Name": "Club Z Tutoring",
+        "Category": "Tutoring",
+        "Location": "Elk Grove",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.clubzsacramento.com/?utm_source=Sacramento4Kids",
+        "Description": "Since 2001, Club Z! Tutoring has provided in-home tutoring to over 30,000 students in the Sacramento and Elk Grove area helping them achieve 2 grades of improvement. We have great tutors with background checks and experience that re passionate about education. Our services are individualized to every students’ needs—we reach them at their level."
+    },
+    {
+        "id": "51",
+        "Name": "ASL Resolutions",
+        "Category": "Tutoring, Language, Other",
+        "Location": "Roseville, Online",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://aslresolutions.com/?utm_source=Sacramento4Kids",
+        "Description": "FUN American Sign Language for kids! Language Delay Support for Deaf Kids!\r\n\r\nLEARN MORE"
+    },
+    {
+        "id": "54",
+        "Name": "Grade Power Learning",
+        "Category": "Tutoring, Summer/Winter Camps",
+        "Location": "Elk Grove",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://gradepowerlearning.com/locations/elk-grove-tutoring/?utm_source=Sacramento4Kids",
+        "Description": "We teach the importance of time management, problem-solving and homework techniques. We promote active thinking and teach children to discover their own learning process. Students are encouraged to take chances, make leaps, and try and try again."
+    },
+    {
+        "id": "57",
+        "Name": "My Tutoring Partners",
+        "Category": "Tutoring",
+        "Location": "Auburn",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://mytutoringpartners.com/?utm_source=Sacramento4Kids",
+        "Description": "My Tutoring Partners is a best-in-class tutoring company that helps students of all ages learn any subject. Our tutors are obsessed with giving their students the best learning experience, creating meaningful change in classroom performance, and cultivating the confidence they need for success."
+    },
+    {
+        "id": "73",
+        "Name": "Kaleidoscope Holistic Learning Center",
+        "Category": "Tutoring, STEM ",
+        "Location": "Rancho Cordova",
+        "Age": "Preschool, Elementary, Middle",
+        "Website": "https://www.kaleidoschool.org/?utm_source=Sacramento4Kids",
+        "Description": "Kaleidoscope Holistic Learning Center is a nonprofit organization dedicated to helping the community. We provide engaging enrichment and intervention courses for PreK – 8th grade students. We approach learning with a variety of innovative methods, such as brain-based learning, to empower students in their education and life.  We offer a choice of meaningful courses including core academics, the arts, wellness, and life skills."
+    },
+    {
+        "id": "83",
+        "Name": "Young Gates",
+        "Category": "STEM, Tutoring, Summer/Winter Camp",
+        "Location": "Online",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.younggates.com/?utm_source=Sacramento4Kids",
+        "Description": "YoungGates provides cutting-edge live online computer science classes for kids from ages 9 and 18 years. Ex: Scratch, Python, Java, Website, App, Data, Photoshop, Gaming, Animation, Math, Rubiks, and more"
+    }
+]

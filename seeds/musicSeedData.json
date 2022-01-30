@@ -1,0 +1,524 @@
+[
+    {
+        "id": "3",
+        "Name": "Becker Music Studio",
+        "Arts": "Arts",
+        "Location": "Fair Oaks, Carmichael",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://beckerpiano.com/",
+        "Description": "Becker Music Studio, Inc. which provides piano lessons to students in the greater Sacramento County area including Fair Oaks and Carmichael. I hope you will find our website informative as you gather information about piano lessons for your child or yourself"
+    },
+    {
+        "id": "4",
+        "Name": "Bill Trainor Music",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://billtrainormusic.com/",
+        "Description": "Bill Trainor Music offers adults and children individual lessons for violin, fiddle, and ukulele. There are also ongoing classes available for intermediate ukulele. Please browse through the site for detailed information about Bill, lessons, Bill's teaching methods and how to contact Bill for more information!"
+    },
+    {
+        "id": "5",
+        "Name": "David Abramson",
+        "Arts": "Arts",
+        "Location": "Davis",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://guitarlessonsindavis.com/",
+        "Description": "I also teach music to kids and adults with developmental disabilities and learning disabilities.\n\nLEARN MORE"
+    },
+    {
+        "id": "6",
+        "Name": "Gymboree Play and Music",
+        "Arts": "Arts",
+        "Location": "Citrus Heights",
+        "Age": "Infant/Toddler, Preschool",
+        "Website": "http://gymboreeclasses.com/en",
+        "Description": "Gymboree Play & Music has been fostering creativity and confidence in children ages 0-5 for over 30 years. Today there are over 550 locations in 30 countries, making us the global leader in early childhood development programs."
+    },
+    {
+        "id": "7",
+        "Name": "Help Me Grow Yolo County",
+        "Arts": "Arts",
+        "Location": "Woodland",
+        "Age": "Infant/Toddler, Preschool",
+        "Website": "http://helpmegrowyolo.org/",
+        "Description": "We provide free developmental playgroups led by licensed therapists -We provide basic needs assistance -developmental Screenings"
+    },
+    {
+        "id": "8",
+        "Name": "A Wonderful World of Music",
+        "Arts": "Arts",
+        "Location": "Citrus Heights",
+        "Age": "Infant/Toddler, Preschool, Elementary, Middle, High",
+        "Website": "http://lafittemusiccenter.com/?utm_source=Sacramento4Kids",
+        "Description": "As a parent we realize you have a choice between several different music schools. All studios are not the same. We constantly renovate and improve our facilities and provide ongoing training to our staff to ensure we are always providing our students and parents with the best experience possible."
+    },
+    {
+        "id": "10",
+        "Name": "Music Together 916 Valley",
+        "Arts": "Arts",
+        "Location": "Elk Grove",
+        "Age": "Infant/Toddler, Preschool, Elementary",
+        "Website": "http://musictogether916valley.com/",
+        "Description": "From babyhood through the early elementary years, Music Together nurtures each childâs natural musicality in a playful, musically rich learning environment. Our research-based music classes are designed to be non-formal and non-performance oriented, so your child can learn at his or her own pace, in a way thatâs developmentally appropriate."
+    },
+    {
+        "id": "11",
+        "Name": "PianoMouse's Musical Circus",
+        "Arts": "Arts",
+        "Location": "Online, Sacramento",
+        "Age": "Preschool, Elementary, Middle",
+        "Website": "http://pianomouse.com/",
+        "Description": "Pianomouseâs Musical Circus teaches children beginning musical concepts. The curriculum includes 4 Lesson Books, 4 Activity Books, and 4 Interactive Audio CDs."
+    },
+    {
+        "id": "12",
+        "Name": "Rock Inc.",
+        "Arts": "Arts",
+        "Location": "Citrus Heights",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://rockincmusic.com/",
+        "Description": "We focus our teaching abilities with our more than capable staff teaching Audio Production, Guitar, Bass, Vocals, and Piano. As well as having a fully functional studio perfect for tracking, mixing, and mastering anything from Hip-Hop and R&B artists to live band tracking."
+    },
+    {
+        "id": "13",
+        "Name": "Sacramento Preparatory Music Academy",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://sacprepmusic.com/",
+        "Description": "Sac Prep Music Academy offers a unique community-based music education program in Sacramento.\n\nLEARN MORE"
+    },
+    {
+        "id": "14",
+        "Name": "Sacramento Music Academy",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://sacramentomusicacademy.com/",
+        "Description": "From your first lessons this innovative system teaches you to play a huge variety of music including classical, blues, jazz, and contemporary while incorporating composing, improvising, arranging, and playing accompaniment."
+    },
+    {
+        "id": "16",
+        "Name": "Thomson Family Music",
+        "Arts": "Arts",
+        "Location": "Roseville",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://thomsonfamilymusic.com/",
+        "Description": "We offer family-based piano lessons for children who are at least 5 years of age with some reading skills. Lessons are 30 minutes and are structured so that parents are actively included in the lessons. Siblings of appropriate age can also be included so that the lessons are family-inclusive."
+    },
+    {
+        "id": "17",
+        "Name": "The Music Store",
+        "Arts": "Arts",
+        "Location": "Rocklin",
+        "Age": "Infant/Toddler, Elementary, Middle, High",
+        "Website": "http://www.acdcguitar.com/",
+        "Description": "The Music Store is a full line family owned music store. We cater to the beginning and intermediate students of ALL ages."
+    },
+    {
+        "id": "18",
+        "Name": "The Professional Voice",
+        "Arts": "Arts",
+        "Location": "Rocklin",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.acdcguitar.com/",
+        "Description": "The Professional Voice (TPV) is Sacramentoâs most sought after voice studio for people who demand results. Using the same method used by over 130 GrammyÂ® winners, American Idol winners, the cast of Glee, and the Sing-Off, TPV promotes effortless singing using the natural voice, which is the safest method available."
+    },
+    {
+        "id": "19",
+        "Name": "Studio Music Lessons & Sales",
+        "Arts": "Arts",
+        "Location": "Rocklin",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.acdcguitar.com/",
+        "Description": "Rock and Roll is my life and my love. I have looked for something that is more fun... I haven't found it. An electric guitar does things it shouldn't do and gets away with it.\n\nLEARN MORE"
+    },
+    {
+        "id": "24",
+        "Name": "Creative Arts & Music Center",
+        "Arts": "Arts",
+        "Location": "Granite Bay",
+        "Age": "Preschool, Elementary, Middle",
+        "Website": "http://www.creativeartsandmusiccenter.org/",
+        "Description": "Perhaps the Art Center's greatest feature is its ability to become whatever its occupants need it to be: mornings, a charming spot for dreamy preschoolers; late afternoon, older kids arrive for a restorative end to their busy school day--a peaceful art class, a piano or flute lesson."
+    },
+    {
+        "id": "25",
+        "Name": "Cordova Recreation & Park District",
+        "Arts": "Arts",
+        "Location": "Rancho Cordova",
+        "Age": "Infant/Toddler, Preschool, Elementary, Middle, High",
+        "Website": "http://www.crpd.com/",
+        "Description": "Proudly meeting the park and recreation needs of Mather, Rosemont, Larchmont, Gold River, Anatolia and the City of Rancho Cordova residents."
+    },
+    {
+        "id": "27",
+        "Name": "Folsom High School Music Boosters",
+        "Arts": "Arts",
+        "Location": "Folsom",
+        "Age": "High School",
+        "Website": "http://www.folsommusic.org/",
+        "Description": "Our mission is promoting excellence through music education, and is realized through the efforts and talents of our dedicated volunteers and community."
+    },
+    {
+        "id": "28",
+        "Name": "Folsom Piano Academy",
+        "Arts": "Arts",
+        "Location": "Folsom",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.folsompianoacademy.com/",
+        "Description": "With the advent of group lessons, hundreds of students have been able to experience the joy of learning how to play the piano at the academy. By using a digital piano lab with headphones, students receive individualized instruction in a group setting and develop confidence in playing for others."
+    },
+    {
+        "id": "29",
+        "Name": "Free Flow Academy",
+        "Arts": "Arts",
+        "Location": "Rocklin",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.freeflowacademy.com/",
+        "Description": "We are a literal Hybrid Arts training center centered on the flowing disciplines of Parkour, Freerunning, Tumbling, Martial Arts, Aerial Arts, Acting, Music, and more."
+    },
+    {
+        "id": "30",
+        "Name": "Golden Sound Music School",
+        "Arts": "Arts",
+        "Location": "West Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.goldensoundmusic.com/",
+        "Description": "At our school we teach the violin, viola, guitar, and piano. We also offer classes in conducting, voice, music theory, solfeggio, and musical ear development."
+    },
+    {
+        "id": "31",
+        "Name": "Imagine Music Instruction",
+        "Arts": "Arts",
+        "Location": "Roseville",
+        "Age": "Infant/Toddler, Preschool, Elementary, Middle, High",
+        "Website": "http://www.imaginemusicinstruction.com/",
+        "Description": "Imagine Music Instruction offers professional musical instruction for all ages in a fun, exciting, family friendly environment. With two beautiful studios in Roseville, IMI offers lessons in Guitar, Piano, Voice, Bass, Violin, Brass, Woodwinds, Ukulele, and more from the best instructors in the area."
+    },
+    {
+        "id": "32",
+        "Name": "JacksonVoice Davis",
+        "Arts": "Arts",
+        "Location": "Davis",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.jacksonvoice.com/",
+        "Description": "From 6 to 60, singing lessons are great for any age! Lessons are specially designed for each singers personality, ability and age group"
+    },
+    {
+        "id": "33",
+        "Name": "Pacific Piano Academy",
+        "Arts": "Arts",
+        "Location": "Sacramento, Carmichael, Fair Oaks, Rosevill, Elk Grove, Granite Bay, North Highlands, Citrus Heights",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.jacobveligan.com/",
+        "Description": "I have been teaching piano for 7 years. I love working with kids of all ages. Teaching music is my profession, business, and passion!\n\nLEARN MORE"
+    },
+    {
+        "id": "35",
+        "Name": "Musical Mayhem Productions",
+        "Arts": "Arts",
+        "Location": "Elk Grove, Sacramento",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.mmpkids.com/?utm_source=Sacramento4Kids",
+        "Description": "Musical Mayhem Productions is a 501(c)(3) tax exempt nonprofit in Elk Grove, CA that specializes in quality theater education for children and special needs adults through rehearsal and workshop classes. The educational classes enrich participants by expanding creativity and enhancing confidence while conveying the importance of Theater Arts to the community through educational, fun, and entertaining performances."
+    },
+    {
+        "id": "37",
+        "Name": "Mr. D's Music School",
+        "Arts": "Arts",
+        "Location": "Folsom",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.mrdsmusicschool.com/",
+        "Description": "Mr. Dâs Music School is the best music school in Folsom, CA. Our music classes are delivered by professional instructors. Call (916) 467-7400 to know more about music lessons!"
+    },
+    {
+        "id": "38",
+        "Name": "Muntean School of Music",
+        "Arts": "Arts",
+        "Location": "Roseville",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.munteanschool.com/",
+        "Description": "Muntean School of Music offers outstanding music instruction and programs to students of all ages, interests, and skill levels at two campuses in the Sacramento area. Come explore our year round classes and programs in classical music, jazz, rock, musical theatre, folk and so much more!"
+    },
+    {
+        "id": "39",
+        "Name": "Music Bloom School of Music",
+        "Arts": "Arts",
+        "Location": "Fair Oaks ",
+        "Age": "Preschool, Elementary, Middle",
+        "Website": "http://www.musicbloom.com/",
+        "Description": "Music Bloom's guitar program for children is designed to teach children music they care about while instilling proper technique and musicality.The guitar student will receive instruction on music reading, beautiful tone production, proper guitar technique, ear training and chords."
+    },
+    {
+        "id": "40",
+        "Name": "Natomas Music Square",
+        "Arts": "Arts",
+        "Location": "Natomas",
+        "Age": "",
+        "Website": "http://www.natomasmusicsquare.com/",
+        "Description": "Natomas Music Square opened in 2011 and has been providing Sacramento with music lessons for children and adults of all ages. When Cindy began NMS, it started as a humble in-home lesson service and has grown into a fully staffed, independent music school, achieving its success by following one key principle: Music is an amazing art form that speaks to people."
+    },
+    {
+        "id": "42",
+        "Name": "Northern California School of the Arts",
+        "Arts": "Arts",
+        "Location": "Land Park Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.norcalsota.org/?utm_source=Sacramento4Kids",
+        "Description": "Northern California School of the Arts offers introductory and professional actor training, personal growth and leadership development programs, classes, and camps (in-person and virtual) for all students of all ages that are based on a holistic approach using social-emotional learning and culturally responsive strategies that empower students from diverse communities to discover and grow their voice, confidence and create a positive mindset towards themselves and their communities."
+    },
+    {
+        "id": "43",
+        "Name": "Natomas Piano Studio",
+        "Arts": "Arts",
+        "Location": "Natomas",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.pianolessonsstudy.com/",
+        "Description": "His students are regularly chosen to participate at the Classical Arts Festival held in Folsom, CA at the Harris Center for Arts. Accepting pianists of all level from beginners to advanced pianists"
+    },
+    {
+        "id": "44",
+        "Name": "Rocklin Guitar Lessons",
+        "Arts": "Arts",
+        "Location": "Rocklin",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.rocklinguitarlessons.com/",
+        "Description": "Iâve provided Rocklin-area students with extensive private teaching services in a number of different fields. I take pride in teaching people who are eager to expand their minds, talents, and skills, and bring a depth of professional expertise to those who strive to excel."
+    },
+    {
+        "id": "45",
+        "Name": "Piano Quest",
+        "Arts": "Arts",
+        "Location": "Rocklin",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.rocklinpianolessons.com/",
+        "Description": "My goal has always been to provide high quality instruction, giving students a solid foundation in performance, theory and music history. Having taught piano for over 25 years, my teaching methods have evolved to help me reach that goal."
+    },
+    {
+        "id": "46",
+        "Name": "Sacramento Performing Arts Company",
+        "Arts": "Arts",
+        "Location": "West Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.sacperformingarts.com/",
+        "Description": "Sacramento Performing Arts Company is a vocal training and performance company focused on educating and inspiring children, teens, and adults through positive experiences in the performing arts"
+    },
+    {
+        "id": "47",
+        "Name": "Sacramento Childrens Chorus",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle",
+        "Website": "http://www.sacramentochildrenschorus.org/",
+        "Description": "Enriching the lives of Sacramento youth through progressive music education, vocal performance, social and service opportunities. Offering summer camp July 16-20 for 2nd to 6th grade and spring break camp all ages in spring 2019.\n\nLEARN MORE"
+    },
+    {
+        "id": "48",
+        "Name": "Young Talents Music School",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://www.sacramentomusic.org/",
+        "Description": "Our goal is to help each student develop their full potential through the study of varied repertoire, balanced technique, music theory, and sight reading.We wish to devote most of our energy to the creative act of sharing music with people."
+    },
+    {
+        "id": "49",
+        "Name": "Skip's Music",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "http://www.skipsmusic.com/",
+        "Description": "At Skip's, we know that the best way to get the most enjoyment from your instrument is to know how to use it. We offer a selection of lessons and performance programs to make your musical experience enjoyable."
+    },
+    {
+        "id": "52",
+        "Name": "Camino Music Studio",
+        "Arts": "Arts",
+        "Location": "Natomas",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://caminomusicstudio.weebly.com/?utm_source=Sacramento4Kids",
+        "Description": "The Camino Music Studio offers weekly private and group music lessons in piano, guitar, bass, violin, voice, saxophone, clarinet, ukulele, and more!"
+    },
+    {
+        "id": "53",
+        "Name": "Bach to Rock - Folsom",
+        "Arts": "Arts",
+        "Location": "Folsom",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://folsom.b2rmusic.com/",
+        "Description": "Youâre never too young to play and create music. Introducing toddlers and very young children to music, rhythm and motion supports cognitive development, learning and motor skills. B2R Early Childhood classes combine structured musical games and activities to promote learning and musical growth and expose children to the fundamentals of music."
+    },
+    {
+        "id": "55",
+        "Name": "Music Institute of Roseville",
+        "Arts": "Arts",
+        "Location": "Roseville",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://musicinstitute.com/",
+        "Description": "If you are looking for quality instrumental and vocal lessons, you have come to the right place. The Music Institute of Roseville was created in order to fulfill musical needs of students of all ages, levels and stylistic preferences in a relaxed, yet disciplined environment. We have been successfully serving the Placer and Sacramento Counties, as well as the immediate surrounding areas for 22 years!"
+    },
+    {
+        "id": "56",
+        "Name": "Music Lab",
+        "Arts": "Arts",
+        "Location": "East Sacramento",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://musiclab.co/east-sacramento/",
+        "Description": "Our teaching rooms are designed to provide the best teaching and learning environment. Teaching is the most important part but if you can combine great teaching with a clean, acoustically sound, inspiring, motivating, and comfortable room you get even better results."
+    },
+    {
+        "id": "58",
+        "Name": "Back to Rock",
+        "Arts": "Arts",
+        "Location": "Rocklin, Roseville, Lincoln, Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://rocklin.b2rmusic.com/",
+        "Description": "Bach to Rock in Rocklin, CA provides music lessons for students of all ages and skill levels living in Rocklin, Roseville & Lincoln. Instruments we teach include guitar, piano, drums, voice, violin, trumpet & more!"
+    },
+    {
+        "id": "59",
+        "Name": "School of Rock - Elk Grove",
+        "Arts": "Arts",
+        "Location": "Elk Grove",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://schoolofrockelkgrove.com/?utm_source=Sacramento4Kids",
+        "Description": "Our Performance Program introduces teamwork and collaboration into music instruction by grouping them with other kids to put on real rock shows at real music venues."
+    },
+    {
+        "id": "60",
+        "Name": "The Drum Lab",
+        "Arts": "Arts",
+        "Location": "Rocklin",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://thedrumlab.net/",
+        "Description": "THE DRUM LAB is Sacramentoâs first and only school of drumming. The Drum Lab opened itâs doors in May of 2005 with one main goal, to set a new standard for drumming education in Sacramento. The Drum Lab offers a comprehensive, hands-on education in contemporary drumming techniques and styles."
+    },
+    {
+        "id": "63",
+        "Name": "Albedo Arts Community",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.albedoartsacademy.com/",
+        "Description": "Albedo Arts Community is a unique learning experience for children and adults of all ages with different interest. We offer classes in music, dance, gymnastics, Pilates, Zumba, Ballroom sports dance, Cardio fitness, social ballroom dance party, fine arts for all ages and skill level at affordable rates."
+    },
+    {
+        "id": "64",
+        "Name": "CLARA",
+        "Arts": "Arts",
+        "Location": "Midtown Sacramento",
+        "Age": "Middle, High",
+        "Website": "https://www.claramidtown.org/arts-education/clara-performing-arts-summer-camp/",
+        "Description": "Performing arts summer camp featuring dance, music, and theatre for ages 11-18. Interactive programming, energizing activities and 15 different kinds of performing arts over two weeks mean that CLARA Performing Arts Camp will engage your childâs imagination, boost their personal pride, and engage powerful bonds that will last a lifetime."
+    },
+    {
+        "id": "66",
+        "Name": "Christian Youth Theater",
+        "Arts": "Arts",
+        "Location": "Rocklin",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.cytsacramento.org/",
+        "Description": "Christian Youth Theater (CYT) is an after-school theater arts training program for students ages 4 - 18. CYT is dedicated to developing character in children and adults through training in the arts and by producing wholesome family entertainment, all of which reflect Judeo-Christian values."
+    },
+    {
+        "id": "70",
+        "Name": "Suzuki Piano Academy",
+        "Arts": "Arts",
+        "Location": "El Dorado Hills",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://www.ilovesuzukipiano.com/",
+        "Description": "The Suzuki Piano Academy offers private piano lessons, music theory classes and homeschool enrichment courses. We have been in business for over 22 years teaching private piano lessons in the Suzuki method, music theory/performance classes in homeschool communities and afterschool programs."
+    },
+    {
+        "id": "71",
+        "Name": "Jan Ken Po Gakko",
+        "Arts": "Arts",
+        "Location": "Elk Grove",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://www.jankenpogakko.com/",
+        "Description": "Jan Ken Po Gakko is a parent cooperative program that educates children and their families about Japanese-American culture through exploration in language, music, arts and cooking."
+    },
+    {
+        "id": "74",
+        "Name": "Kline Music",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Preschool, Elementary, Middle, High",
+        "Website": "https://www.klinemusic.com/",
+        "Description": "Serving the beginner to the serious musician since 1963! Music Store in Sacramento, California - Open 7 days a week!"
+    },
+    {
+        "id": "75",
+        "Name": "Play/Music Sacramento",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Infant/Toddler, Preschool, Elementary, Middle, High",
+        "Website": "https://www.playmusicsacramento.com/",
+        "Description": "A unique and magical place for kids to play and learn to play music."
+    },
+    {
+        "id": "78",
+        "Name": "Roseville Piano Studio",
+        "Arts": "Arts",
+        "Location": "Roseville",
+        "Age": "Infant/Toddler, Preschool",
+        "Website": "https://www.rosevillepianostudio.com/",
+        "Description": "Roseville Piano Studio provides piano lessons using the phenomenal Simply MusicÂ© method! Also check out Simply Music Rhapsody; Music and Movement for infants -5 years. Come to your free intro session!"
+    },
+    {
+        "id": "79",
+        "Name": "Sacramento Youth Symphony",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://www.sacramentoyouthsymphony.org/",
+        "Description": "At the Sacramento Youth Symphony our goal is to educate and advance the musical skills of youth, throughout the entire Sacramento Valley community, in ways that engage, challenge, and inspire them to reach their highest potential."
+    },
+    {
+        "id": "80",
+        "Name": "Sierra Mountain Music Camp",
+        "Arts": "Arts",
+        "Location": "",
+        "Age": "",
+        "Website": "https://www.sierramountainmusiccamp.org/register",
+        "Description": "Sierra Mountain Music Camp has been lucky enough to have some wonderful talents in the roles of Music Directors. We have award winning directors, many of whom have received national recognition, and have studied among other great talents. In addition to being wonderful directors, these people have inspired many former campers to pursue a lifelong devotion to music, and have kept the flame of music alive in the hearts of hundreds of former campers."
+    },
+    {
+        "id": "81",
+        "Name": "Tamraloo Music",
+        "Arts": "Arts",
+        "Location": "Lincoln",
+        "Age": "Elementary, Middle, High",
+        "Website": "https://www.tamraloomusic.com/",
+        "Description": "Tamraloo Music strives to bring you top quality music lessons for all ages and stages."
+    },
+    {
+        "id": "84",
+        "Name": "ArtBeast Childrens Studio",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Infant/Toddler, Preschool, Elementary",
+        "Website": "http://www.artbeaststudio.com/",
+        "Description": "ArtBeast is a drop in arts exploration space for children featuring an open studio, arts classes, and arts exploration rooms. Though all children are welcome to visit ArtBeast, special focus is given to creating an environment for children under 6.The open studio features tables, easels, and clay mounds where young artists can work. Surrounding shelves are stocked with paint, papers, objects from nature, recycled tidbits, glues, crayons, glitter, scissors, an array of brushes, and an even wider offering of objects from which to make art. Children develop confidence in expressing and messing as they create art pieces that convey their sense of the world. ArtBeast classes emphasize exploration over specialization."
+    },
+    {
+        "id": "85",
+        "Name": "Kindermusik",
+        "Arts": "Arts",
+        "Location": "Sacramento",
+        "Age": "Infant/Toddler, Preschool",
+        "Website": "http://www.musicandmychild.com/",
+        "Description": "Kids Music Classes Sacramento - Kindermusik is the worldâs leading music and movement program for young children. Building on decades of research and experience. Our fun-filled and dynamic programs are developed by recognized leaders in the field of early childhood development."
+    },
+    {
+        "id": "86",
+        "Name": "Lafitte Music Center",
+        "Arts": "Arts",
+        "Location": "Citrus Heights",
+        "Age": "Elementary, Middle, High",
+        "Website": "http://lafittemusiccenter.com/?utm_source=Sacramento4Kids",
+        "Description": "At Lafitte Music Center we share our passion for music by providing classes and concerts for music lovers of all ages. We offer personal and group lessons to ages 4 and up in piano, strings, drums, guitar and voice. All skill levels are welcome."
+    }
+]

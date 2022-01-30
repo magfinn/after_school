@@ -1,9 +1,11 @@
 const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
 
-class Course extends Model {}
+const sequelize = require('../config/connection.js');
+const Course = require('./Course.js');
 
-Course.init(
+class ChildCare extends Model {}
+
+ChildCare.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -29,17 +31,21 @@ Course.init(
     description: {
       type: DataTypes.STRING,
     },
-    category: {
-      type: DataTypes.STRING,
-    }
+    // course_tag: {
+    //   type: DataTypes.INTEGER,
+    //   references: {
+    //     model: Course,
+    //     attributes: 'id',
+    //   }
+    // }
   },
   {
     sequelize,
     timestamps: true,
     freezeTableName: true,
     underscored: true,
-    modelName: 'course',
+    modelName: 'childCare',
   }
 );
 
-module.exports = Course;
+module.exports = ChildCare;

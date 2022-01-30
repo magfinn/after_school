@@ -1,0 +1,29 @@
+    [
+        {
+        "id": "9",
+        "Name": "A Little Ones Happy Place",
+        "Category": "Child Care",
+        "Location": "Lincoln",
+        "Age": "Preschool",
+        "Website": "http://littleoneshappyplace.com/",
+        "Description": "I have a unique combination of a loving home atmosphere combined with a happy preschool learning place in a comfortable and fun setting specially blended to provide children with the most warm, nurturing, safe, & caring environment."
+    },
+    {
+        "id": "20",
+        "Name": "A New Beginnings Preschool ",
+        "Category": "Child Care",
+        "Location": "Fair Oaks",
+        "Age": "Infant/Toddler, Preschool",
+        "Website": "http://www.anewbeginningpreschool.com/",
+        "Description": "A New Beginning Preschool Learning Center offers a variety of learning programs for young children ages 2-6. Our purpose is to encourage, guide, facilitate and nurture your child's developmental stages through the first years of their life."
+    },
+    {
+        "id": "22",
+        "Name": "A Tree of Life Early Care and Education",
+        "Category": "Child Care",
+        "Location": "Sacramento",
+        "Age": "Infant/Toddler, Preschool",
+        "Website": "http://www.atreeoflifeece.com/",
+        "Description": "A Tree of Life is a RIE and Waldorf-inspired, early care and natural play program located in North Natomas at the beautiful private residence of Provider/Director Rachelle Davis-Ford."
+    }
+  ]
